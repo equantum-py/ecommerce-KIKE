@@ -260,3 +260,17 @@ export const formatGuarani = (value) => {
 - Imágenes reales pendientes.
 - Resultado del build: Limpio (verificado con git diff --check).
 
+
+## Fase 4 — Ajuste de paleta y distribución visual
+
+- Variables creadas: --brand-brown-dark, --brand-orange, --brand-cream, etc.
+- Clases propias: .antojo-footer, .antojo-section-soft, .badge-disponible, .btn-antojo-primary, .btn-antojo-secondary, .product-price.
+- Colores eliminados: Verde FreshCart (#0aad0a, #198754) en favor del Naranja y Marrón de la marca.
+- Componentes ajustados: Header, Footer, Home, Shop, ShopCart, ProductItem.
+- Reglas de botones: Se priorizó el uso de btn-antojo-primary para Agregar al carrito y Finalizar compra, usando colores cálidos y consistentes.
+- Reglas de tarjetas: Fondos blancos y cremas, eliminando grises y verdes.
+- Reglas de precios: Naranja artesanal con fuente semibold para precio actual, marrón apagado y tachado para precio antiguo.
+- Reglas de badges: Reemplazo explícito de bg-success por clases temáticas (.badge-disponible, .badge-oferta).
+- Resultado del build: Limpio (verificado localmente sin errores de sintaxis).
+- Advertencias pendientes: Al evitar overrides globales de Bootstrap bg-success, futuros módulos con formularios validables deben preservar las clases de validación por defecto sin afectar la marca.
+

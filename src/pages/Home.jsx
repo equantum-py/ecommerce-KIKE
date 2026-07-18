@@ -185,7 +185,7 @@ const Home = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+            {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -194,7 +194,7 @@ const Home = () => {
               wrapperStyle={{}}
               wrapperclassName="magnifying-glass-wrapper"
               glassColor="#c0efff"
-              color="#0aad0a"
+              color="#D96800"
             />
           </div>
         ) : (
@@ -235,7 +235,7 @@ const Home = () => {
                             <p className="lead">
                               Dulces, comidas saladas, bebidas naturales y postres hechos en casa.
                             </p>
-                            <Link to="/Shop" className="btn btn-dark mt-3">
+                            <Link to="/Shop" className="btn btn-antojo-primary mt-3">
                               Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
@@ -262,7 +262,7 @@ const Home = () => {
                             <p className="lead">
                               Cada producto es preparado con ingredientes seleccionados para cada preparación.
                             </p>
-                            <Link to="/Shop" className="btn btn-dark mt-3">
+                            <Link to="/Shop" className="btn btn-antojo-primary mt-3">
                               Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
@@ -327,7 +327,7 @@ const Home = () => {
                           </div>
                           <div className="mt-3 mt-lg-0">
                             {/* btn */}
-                            <Link to="/Shop" className="btn btn-dark">
+                            <Link to="/Shop" className="btn btn-antojo-primary">
                               Ver productos
                             </Link>
                           </div>
@@ -363,7 +363,7 @@ const Home = () => {
                               <div className="mt-4 mb-5 fs-5">
                                 <p className="mb-0">Hechas con ingredientes seleccionados</p>
                               </div>
-                              <Link to="/Shop" className="btn btn-dark">
+                              <Link to="/Shop" className="btn btn-antojo-primary">
                                 Ver productos
                               </Link>
                             </div>
@@ -394,7 +394,7 @@ const Home = () => {
                                 Jugos caseros <br />
                                 y refrescantes
                               </p>
-                              <Link to="/Shop" className="btn btn-dark mt-2">
+                              <Link to="/Shop" className="btn btn-antojo-primary mt-2">
                                 Ver productos
                               </Link>
                             </div>
@@ -424,7 +424,7 @@ const Home = () => {
                                 <br />
                                 y más
                               </p>
-                              <Link to="/Shop" className="btn btn-dark">
+                              <Link to="/Shop" className="btn btn-antojo-primary">
                                 Ver productos
                               </Link>
                             </div>
@@ -607,7 +607,7 @@ const Home = () => {
                               <p className="mb-4">
                                 Ingredientes seleccionados
                               </p>
-                              <Link to="/Shop" className="btn btn-dark">
+                              <Link to="/Shop" className="btn btn-antojo-primary">
                                 Ver productos
                               </Link>
                             </div>
@@ -633,7 +633,7 @@ const Home = () => {
                               <p className="mb-4">
                                 Sabor que recuerda a casa
                               </p>
-                              <Link to="/Shop" className="btn btn-dark">
+                              <Link to="/Shop" className="btn btn-antojo-primary">
                                 Ver productos
                               </Link>
                             </div>
@@ -713,7 +713,7 @@ const Home = () => {
           </div>
            
           <div className="col-6">
-            <button type="submit" className="btn btn-primary mb-3">Share app link</button>
+            <button type="submit" className="btn btn-antojo-primary mb-3">Share app link</button>
           </div>
         </form> */}
                           </div>
@@ -798,7 +798,7 @@ const Home = () => {
                           <p className="text-white">
                             Preparados con amor cada día.
                           </p>
-                          <Link to="/Shop" className="btn btn-primary">
+                          <Link to="/Shop" className="btn btn-antojo-primary">
                             Ver productos{" "}
                             <i className="feather-icon icon-arrow-right ms-1" />
                           </Link>
@@ -893,7 +893,7 @@ const Home = () => {
                                     </div>
                                   </div>
                                   <div className="d-grid mt-2">
-                                    <Link to="#!" className="btn btn-primary ">
+                                    <Link to="#!" className="btn btn-antojo-primary ">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={16}
@@ -1007,7 +1007,7 @@ const Home = () => {
                                     </div>
                                   </div>
                                   <div className="d-grid mt-2">
-                                    <Link to="#!" className="btn btn-primary ">
+                                    <Link to="#!" className="btn btn-antojo-primary ">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={16}
@@ -1121,7 +1121,7 @@ const Home = () => {
                                     </div>
                                   </div>
                                   <div className="d-grid mt-2">
-                                    <Link to="#!" className="btn btn-primary ">
+                                    <Link to="#!" className="btn btn-antojo-primary ">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={16}
@@ -1235,7 +1235,7 @@ const Home = () => {
                                     </div>
                                   </div>
                                   <div className="d-grid mt-2">
-                                    <Link to="#!" className="btn btn-primary ">
+                                    <Link to="#!" className="btn btn-antojo-primary ">
                                       <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={16}

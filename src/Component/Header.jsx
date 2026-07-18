@@ -44,7 +44,7 @@ const Header = () => {
                         >
                           <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                         </svg>
-                        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-oferta">
                           5
                           <span className="visually-hidden">
                             unread messages
@@ -101,7 +101,7 @@ const Header = () => {
                           <line x1={3} y1={6} x2={21} y2={6} />
                           <path d="M16 10a4 4 0 0 1-8 0" />
                         </svg>
-                        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                        <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-oferta">
                           1
                           <span className="visually-hidden">
                             unread messages
@@ -156,7 +156,7 @@ const Header = () => {
                     >
                       <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                     </svg>
-                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-oferta">
                       5<span className="visually-hidden">unread messages</span>
                     </span>
                   </Link>
@@ -210,7 +210,7 @@ const Header = () => {
                       <line x1={3} y1={6} x2={21} y2={6} />
                       <path d="M16 10a4 4 0 0 1-8 0" />
                     </svg>
-                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-oferta">
                       1<span className="visually-hidden">unread messages</span>
                     </span>
                   </Link>

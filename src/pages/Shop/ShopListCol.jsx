@@ -97,7 +97,7 @@ const ShopListCol = () => {
       //   <div>
       //     {loaderStatus ? (
       //       <div className="loader-container">
-      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
       //         <MagnifyingGlass
       //           visible={true}
       //           height="100"
@@ -106,7 +106,7 @@ const ShopListCol = () => {
       //           wrapperStyle={{}}
       //           wrapperclassName="magnifying-glass-wrapper"
       //           glassColor="#c0efff"
-      //           color="#0aad0a"
+      //           color="#D96800"
       //         />
       //       </div>
       //     ) : (
@@ -376,7 +376,7 @@ const ShopListCol = () => {
                   <div className="position-absolute p-5 py-8">
                     <h3 className="mb-0">Fresh Fruits </h3>
                     <p>Get Upto 25% Off</p>
-                    <Link to="#" className="btn btn-dark">
+                    <Link to="#" className="btn btn-antojo-primary">
                       Ver productos
                       <i className="feather-icon icon-arrow-right ms-1" />
                     </Link>
@@ -397,7 +397,7 @@ const ShopListCol = () => {
                 <div>
                   {loaderStatus ? (
                     <div className="loader-container">
-                      {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+                      {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
                       <p>Cargando...</p>
                     </div>
                   ) : (
@@ -569,7 +569,7 @@ const ShopListCol = () => {
                                     <div className="mt-2">
                                       <Link
                                         to="#!"
-                                        className="btn btn-primary "
+                                        className="btn btn-antojo-primary "
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -689,7 +689,7 @@ const ShopListCol = () => {
                                     <div className="mt-2">
                                       <Link
                                         to="#!"
-                                        className="btn btn-primary "
+                                        className="btn btn-antojo-primary "
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -726,7 +726,7 @@ const ShopListCol = () => {
                                   <div className="text-center position-relative">
                                     <div className=" position-absolute top-0">
                                       {/* badge */}{" "}
-                                      <span className="badge bg-success">
+                                      <span className="badge badge-disponible">
                                         14%
                                       </span>
                                     </div>
@@ -815,7 +815,7 @@ const ShopListCol = () => {
                                     <div className="mt-2">
                                       <Link
                                         to="#!"
-                                        className="btn btn-primary "
+                                        className="btn btn-antojo-primary "
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -938,7 +938,7 @@ const ShopListCol = () => {
                                     <div className="mt-2">
                                       <Link
                                         to="#!"
-                                        className="btn btn-primary "
+                                        className="btn btn-antojo-primary "
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"
@@ -1061,7 +1061,7 @@ const ShopListCol = () => {
                                     <div className="mt-2">
                                       <Link
                                         to="#!"
-                                        className="btn btn-primary "
+                                        className="btn btn-antojo-primary "
                                       >
                                         <svg
                                           xmlns="http://www.w3.org/2000/svg"

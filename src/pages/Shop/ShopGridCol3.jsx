@@ -97,7 +97,7 @@ const ShopGridCol3 = () => {
       //   <div>
       //     {loaderStatus ? (
       //       <div className="loader-container">
-      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
       //         <MagnifyingGlass
       //           visible={true}
       //           height="100"
@@ -106,7 +106,7 @@ const ShopGridCol3 = () => {
       //           wrapperStyle={{}}
       //           wrapperclassName="magnifying-glass-wrapper"
       //           glassColor="#c0efff"
-      //           color="#0aad0a"
+      //           color="#D96800"
       //         />
       //       </div>
       //     ) : (
@@ -376,7 +376,7 @@ const ShopGridCol3 = () => {
                   <div className="position-absolute p-5 py-8">
                     <h3 className="mb-0">Fresh Fruits </h3>
                     <p>Get Upto 25% Off</p>
-                    <Link to="#" className="btn btn-dark">
+                    <Link to="#" className="btn btn-antojo-primary">
                       Ver productos
                       <i className="feather-icon icon-arrow-right ms-1" />
                     </Link>
@@ -397,7 +397,7 @@ const ShopGridCol3 = () => {
                 <div>
                   {loaderStatus ? (
                     <div className="loader-container">
-                      {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+                      {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
                       <MagnifyingGlass
                         visible={true}
                         height="100"
@@ -406,7 +406,7 @@ const ShopGridCol3 = () => {
                         wrapperStyle={{}}
                         wrapperclassName="magnifying-glass-wrapper"
                         glassColor="#c0efff"
-                        color="#0aad0a"
+                        color="#D96800"
                       />
                     </div>
                   ) : (
@@ -571,7 +571,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -602,7 +602,7 @@ const ShopGridCol3 = () => {
                             <div className="card-body">
                               <div className="text-center position-relative">
                                 <div className=" position-absolute top-0 start-0">
-                                  <span className="badge bg-success">14%</span>
+                                  <span className="badge badge-disponible">14%</span>
                                 </div>
                                 <Link to="#!">
                                   {/* img */}
@@ -687,7 +687,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -803,7 +803,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -922,7 +922,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1037,7 +1037,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1157,7 +1157,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1270,7 +1270,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1384,7 +1384,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1500,7 +1500,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
@@ -1615,7 +1615,7 @@ const ShopGridCol3 = () => {
                                 <div>
                                   <Link
                                     to="#!"
-                                    className="btn btn-primary btn-sm"
+                                    className="btn btn-antojo-primary btn-sm"
                                   >
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"

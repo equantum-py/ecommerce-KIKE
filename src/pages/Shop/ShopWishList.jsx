@@ -21,7 +21,7 @@ const ShopWishList = () => {
       <div>
       {loaderStatus ? (
         <div className="loader-container">
-          {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+          {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
           <MagnifyingGlass
   visible={true}
   height="100"
@@ -30,7 +30,7 @@ const ShopWishList = () => {
   wrapperStyle={{}}
   wrapperclassName="magnifying-glass-wrapper"
   glassColor="#c0efff"
-  color="#0aad0a"
+  color="#D96800"
   />
         </div>
       ) : (
@@ -121,10 +121,10 @@ const ShopWishList = () => {
                           </td>
                           <td className="align-middle">{formatGuarani(35000)}</td>
                           <td className="align-middle">
-                            <span className="badge bg-success">Disponible</span>
+                            <span className="badge badge-disponible">Disponible</span>
                           </td>
                           <td className="align-middle">
-                            <div className="btn btn-primary btn-sm">
+                            <div className="btn btn-antojo-primary btn-sm">
                               Agregar al carrito
                             </div>
                           </td>
@@ -184,7 +184,7 @@ const ShopWishList = () => {
                             </span>
                           </td>
                           <td className="align-middle">
-                            <div className="btn btn-dark btn-sm">
+                            <div className="btn btn-antojo-primary btn-sm">
                               Contact us
                             </div>
                           </td>
@@ -239,10 +239,10 @@ const ShopWishList = () => {
                           </td>
                           <td className="align-middle">$35.00</td>
                           <td className="align-middle">
-                            <span className="badge bg-success">In Stock</span>
+                            <span className="badge badge-disponible">In Stock</span>
                           </td>
                           <td className="align-middle">
-                            <div className="btn btn-primary btn-sm">
+                            <div className="btn btn-antojo-primary btn-sm">
                               Add to Cart
                             </div>
                           </td>
@@ -297,10 +297,10 @@ const ShopWishList = () => {
                           </td>
                           <td className="align-middle">$29.00</td>
                           <td className="align-middle">
-                            <span className="badge bg-success">In Stock</span>
+                            <span className="badge badge-disponible">In Stock</span>
                           </td>
                           <td className="align-middle">
-                            <div className="btn btn-primary btn-sm">
+                            <div className="btn btn-antojo-primary btn-sm">
                               Add to Cart
                             </div>
                           </td>
@@ -355,10 +355,10 @@ const ShopWishList = () => {
                           </td>
                           <td className="align-middle">$70.00</td>
                           <td className="align-middle">
-                            <span className="badge bg-success">In Stock</span>
+                            <span className="badge badge-disponible">In Stock</span>
                           </td>
                           <td className="align-middle">
-                            <div className="btn btn-primary btn-sm">
+                            <div className="btn btn-antojo-primary btn-sm">
                               Add to Cart
                             </div>
                           </td>

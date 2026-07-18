@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div>
       <>
-        <footer className="footer mt-8">
+        <footer className="footer mt-8 antojo-footer">
           <div className="overlay" />
           <div className="container">
             <div className="row footer-row">

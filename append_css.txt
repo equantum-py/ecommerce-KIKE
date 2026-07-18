@@ -1,0 +1,92 @@
+﻿
+:root {
+  --brand-brown-dark: #4A210D;
+  --brand-brown: #6B2E0B;
+  --brand-orange: #D96800;
+  --brand-orange-light: #E98522;
+  --brand-cream: #FFF8EE;
+  --brand-cream-soft: #F7EBDD;
+  --brand-beige: #EAD7C1;
+  --brand-white: #FFFFFF;
+  --brand-text: #2D1B12;
+  --brand-text-muted: #6F5B4D;
+  --brand-border: #E5D3C0;
+}
+
+.antojo-footer {
+  background: var(--brand-brown-dark);
+  color: var(--brand-cream);
+}
+
+.antojo-section-soft {
+  background: var(--brand-cream-soft);
+}
+
+.antojo-section-beige {
+  background: var(--brand-beige);
+}
+
+.badge-disponible {
+  background: var(--brand-cream-soft);
+  color: var(--brand-brown);
+  border: 1px solid var(--brand-border);
+}
+
+.badge-oferta {
+  background: var(--brand-orange);
+  color: var(--brand-white);
+}
+
+.badge-nuevo {
+  background: var(--brand-beige);
+  color: var(--brand-brown-dark);
+}
+
+.btn-antojo-primary {
+  background: var(--brand-orange);
+  color: var(--brand-white);
+  border: 1px solid var(--brand-orange);
+}
+
+.btn-antojo-primary:hover,
+.btn-antojo-primary:focus {
+  background: var(--brand-brown);
+  border-color: var(--brand-brown);
+  color: var(--brand-white);
+}
+
+.btn-antojo-secondary {
+  background: var(--brand-cream);
+  color: var(--brand-brown-dark);
+  border: 1px solid var(--brand-border);
+}
+
+.btn-antojo-secondary:hover,
+.btn-antojo-secondary:focus {
+  background: var(--brand-cream-soft);
+  border-color: var(--brand-brown);
+  color: var(--brand-brown-dark);
+}
+
+.product-price {
+  color: var(--brand-orange);
+  font-weight: 600;
+}
+
+.product-price-old {
+  color: var(--brand-text-muted);
+  text-decoration: line-through;
+}
+
+.category-card {
+  background: var(--brand-white);
+  border: 1px solid var(--brand-border);
+}
+
+.category-card:hover,
+.category-card.active {
+  background: var(--brand-cream-soft);
+  border-color: var(--brand-orange);
+  color: var(--brand-brown-dark);
+}
+

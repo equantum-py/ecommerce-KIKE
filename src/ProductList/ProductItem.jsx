@@ -52,7 +52,7 @@ const ProductItem = () => {
                   <div className="card-body">
                     <div className="text-center position-relative ">
                       <div className=" position-absolute top-0 start-0">
-                        <span className="badge bg-success">Disponible</span>
+                        <span className="badge badge-disponible">Disponible</span>
                       </div>
                       <Link to="#!">
                         <img
@@ -95,10 +95,10 @@ const ProductItem = () => {
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3">
                       <div>
-                        <span className="text-dark">{formatGuarani(product.price)}</span>
+                        <span className="product-price">{formatGuarani(product.price)}</span>
                       </div>
                       <div>
-                        <Link to="#!" className="btn btn-primary btn-sm" onClick={handleAddClick}>
+                        <Link to="#!" className="btn btn-antojo-primary btn-sm" onClick={handleAddClick}>
                           <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-plus">
                             <line x1={12} y1={5} x2={12} y2={19} />
                             <line x1={5} y1={12} x2={19} y2={12} />

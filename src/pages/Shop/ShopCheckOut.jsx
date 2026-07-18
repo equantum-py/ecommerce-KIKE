@@ -18,7 +18,7 @@ const ShopCheckOut = () => {
       <div>
       {loaderStatus ? (
         <div className="loader-container">
-          {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+          {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
           <MagnifyingGlass
   visible={true}
   height="100"
@@ -27,7 +27,7 @@ const ShopCheckOut = () => {
   wrapperStyle={{}}
   wrapperclassName="magnifying-glass-wrapper"
   glassColor="#c0efff"
-  color="#0aad0a"
+  color="#D96800"
   />
         </div>
       ) : (
@@ -407,7 +407,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -606,7 +606,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -801,7 +801,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -996,7 +996,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1193,7 +1193,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1388,7 +1388,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1583,7 +1583,7 @@ const ShopCheckOut = () => {
                                 {/* price */}
                                 <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Gratis</span>
+                                  <span className="badge badge-disponible">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1686,7 +1686,7 @@ const ShopCheckOut = () => {
                           </Link>
                           <Link
                             to="#"
-                            className="btn btn-primary ms-2"
+                            className="btn btn-antojo-primary ms-2"
                             data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree"
                             aria-expanded="false"
@@ -1747,7 +1747,7 @@ const ShopCheckOut = () => {
                             </Link>
                             <Link
                               to="#"
-                              className="btn btn-primary ms-2"
+                              className="btn btn-antojo-primary ms-2"
                               data-bs-toggle="collapse"
                               data-bs-target="#flush-collapseFour"
                               aria-expanded="false"
@@ -1975,7 +1975,7 @@ const ShopCheckOut = () => {
                               >
                                 Prev
                               </Link>
-                              <Link to="#" className="btn btn-primary ms-2">
+                              <Link to="#" className="btn btn-antojo-primary ms-2">
                                 Confirmar pedido
                               </Link>
                             </div>
@@ -2321,7 +2321,7 @@ const ShopCheckOut = () => {
                       >
                         Cancel
                       </button>
-                      <button className="btn btn-primary" type="button">
+                      <button className="btn btn-antojo-primary" type="button">
                         Guardar dirección
                       </button>
                     </div>

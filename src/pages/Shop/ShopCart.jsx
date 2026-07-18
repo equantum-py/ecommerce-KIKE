@@ -20,7 +20,7 @@ const ShopCart = () => {
       <div>
       {loaderStatus ? (
         <div className="loader-container">
-          {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+          {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
           <MagnifyingGlass
   visible={true}
   height="100"
@@ -29,7 +29,7 @@ const ShopCart = () => {
   wrapperStyle={{}}
   wrapperclassName="magnifying-glass-wrapper"
   glassColor="#c0efff"
-  color="#0aad0a"
+  color="#D96800"
   />
         </div>
       ) : (
@@ -486,11 +486,11 @@ const ShopCart = () => {
                     {/* btn */}
                     <div className="d-flex justify-content-between mt-4">
                       <Link to
-                      ="#!" className="btn btn-primary">
+                      ="#!" className="btn btn-antojo-primary">
                         Seguir comprando
                       </Link>
                       <Link to
-                      ="#!" className="btn btn-dark">
+                      ="#!" className="btn btn-antojo-primary">
                         Actualizar carrito
                       </Link>
                     </div>
@@ -532,7 +532,7 @@ const ShopCart = () => {
                       <div className="d-grid mb-1 mt-4">
                         {/* btn */}
                         <button
-                          className="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
+                          className="btn btn-antojo-primary btn-lg d-flex justify-content-between align-items-center"
                           type="submit"
                         >
                           Finalizar compra — <span className="fw-bold">{formatGuarani(67000)}</span>

@@ -30,7 +30,7 @@ function Dropdown() {
     <div>
     {loaderStatus ? (
       <div className="loader-container">
-        {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+        {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
         <MagnifyingGlass
 visible={true}
 height="100"
@@ -39,7 +39,7 @@ ariaLabel="magnifying-glass-loading"
 wrapperStyle={{}}
 wrapperclassName="magnifying-glass-wrapper"
 glassColor="#c0efff"
-color="#0aad0a"
+color="#D96800"
 />
       </div>
     ) : (
@@ -315,7 +315,7 @@ color="#0aad0a"
               <div className="position-absolute p-5 py-8">
                 <h3 className="mb-0">Antojo Casero </h3>
                 <p>Sabores de casa</p>
-                <Link to="#" className="btn btn-dark">
+                <Link to="#" className="btn btn-antojo-primary">
                   Ver productos
                   <i className="feather-icon icon-arrow-right ms-1" />
                 </Link>
@@ -476,7 +476,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -507,7 +507,7 @@ color="#0aad0a"
                   {/* badge */}
                   <div className="text-center position-relative">
                     <div className=" position-absolute top-0 start-0">
-                      <span className="badge bg-success">14%</span>
+                      <span className="badge badge-disponible">14%</span>
                     </div>
                     <Link to="#!">
                       {/* img */}
@@ -582,7 +582,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -687,7 +687,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -796,7 +796,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -900,7 +900,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1009,7 +1009,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1111,7 +1111,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1216,7 +1216,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1321,7 +1321,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
@@ -1425,7 +1425,7 @@ color="#0aad0a"
                     </div>
                     {/* btn */}
                     <div>
-                      <Link to="#!" className="btn btn-primary btn-sm">
+                      <Link to="#!" className="btn btn-antojo-primary btn-sm">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={16}
