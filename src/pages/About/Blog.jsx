@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import bloglarge from "../../images/blog-large.jpg";
 import blog1 from "../../images/blog-img-1.jpg";

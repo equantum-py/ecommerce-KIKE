@@ -1,4 +1,4 @@
-﻿import slider1 from "../images/slide-1.jpg";
+import slider1 from "../images/slide-1.jpg";
 import abouticon from "../images/about-icons-1.svg";
 import slider2 from "../images/slider-2.jpg";
 import adbanner1 from "../images/ad-banner-1.jpg";
