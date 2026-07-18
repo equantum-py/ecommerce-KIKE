@@ -2,11 +2,6 @@ import React, { useEffect, useState } from "react";
 import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import productimage15 from '../../images/product-img-15.jpg'
-import productimage16 from '../../images/product-img-16.jpg'
-import productimage17 from '../../images/product-img-17.jpg'
-import productimage18 from '../../images/product-img-18.jpg'
-import productimage19 from '../../images/product-img-19.jpg'
 import { MagnifyingGlass } from 'react-loader-spinner'
 import ScrollToTop from "../ScrollToTop";
 
