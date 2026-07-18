@@ -1,0 +1,87 @@
+﻿
+.antojo-footer {
+  background: var(--brand-cream);
+  border-top: 1px solid var(--brand-border);
+  color: var(--brand-text);
+  padding: 48px 0 0;
+}
+
+.antojo-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.antojo-footer h2 {
+  color: var(--brand-orange);
+  font-weight: bold;
+}
+
+.antojo-footer h3,
+.antojo-footer h4 {
+  color: var(--brand-brown-dark);
+  margin-bottom: 16px;
+}
+
+.antojo-footer p,
+.antojo-footer a {
+  color: var(--brand-text-muted);
+  text-decoration: none;
+}
+
+.antojo-footer a:hover {
+  color: var(--brand-orange);
+}
+
+.antojo-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.antojo-footer li {
+  margin-bottom: 10px;
+}
+
+.antojo-footer-bottom {
+  margin-top: 40px;
+  padding: 18px 0;
+  background: var(--brand-brown-dark);
+  color: var(--brand-cream);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Responsividad para Footer */
+@media (max-width: 991px) {
+  .antojo-footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .antojo-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* Scroll To Top Button Overrides */
+.scroll-to-top-button {
+  background-color: var(--brand-orange) !important;
+  color: white !important;
+  border-radius: 8px !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+  border: none !important;
+}
+
+.scroll-to-top-button:hover {
+  background-color: var(--brand-brown) !important;
+}
+
