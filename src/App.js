@@ -43,6 +43,7 @@ const App = () => {
       <Router>
         <Header/>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Grocery-react/" element={<Home />} />
           {/* Shop pages */}
           <Route path="/Shop" element={<Shop />} />
@@ -73,6 +74,7 @@ const App = () => {
           <Route path="/Coupons" element={<Coupons />} />
           <Route path="/Careers" element={<Careers />} />
           <Route path="/helpcenter" element={<HelpCenter />} />
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer/>
       </Router>
