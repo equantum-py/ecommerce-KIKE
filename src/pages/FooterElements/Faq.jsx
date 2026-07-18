@@ -3,34 +3,34 @@ import React, { useState } from "react";
 const FAQ = () => {
   const faqData = [
     {
-      question: "How do I add items to my cart?",
+      question: "¿Cómo agrego productos al carrito?",
       answer:
-        "Browse the products and click on the 'Add to Cart' button. You can view your cart anytime by clicking on the cart icon.",
+        "Explorá los productos y hacé clic en el botón 'Agregar al carrito'. Podés ver tu carrito en cualquier momento haciendo clic en el ícono del carrito.",
     },
     {
-      question: "Can I remove or update the quantity of items in my cart?",
+      question: "¿Puedo eliminar o cambiar la cantidad de productos en el carrito?",
       answer:
-        "Yes, go to the cart page. You'll find options to increase, decrease, or remove each item from the cart.",
+        "Sí, ingresá a la página del carrito. Encontrarás opciones para aumentar, disminuir o eliminar cada producto.",
     },
     {
-      question: "Do I need to create an account to order groceries?",
+      question: "¿Necesito crear una cuenta para hacer un pedido?",
       answer:
-        "You can browse items without an account, but placing an order requires a quick sign-up or login to ensure delivery and order tracking.",
+        "Podés explorar los productos sin cuenta, pero para realizar un pedido es necesario registrarte o iniciar sesión.",
     },
     {
-      question: "What payment methods are accepted?",
+      question: "¿Qué formas de pago se aceptan?",
       answer:
-        "We accept UPI, Credit/Debit Cards, Net Banking, and Cash on Delivery (COD) based on availability in your area.",
+        "Actualmente los métodos de pago disponibles se coordinan directamente con Antojo Casero al momento de confirmar el pedido.",
     },
     {
-      question: "How do I track my order?",
+      question: "¿Cómo hago seguimiento de mi pedido?",
       answer:
-        "After placing your order, go to your profile > 'My Orders' to see live updates and order history.",
+        "Después de realizar tu pedido, ingresá a tu perfil y seleccioná 'Mis pedidos' para ver el estado actualizado.",
     },
     {
-      question: "Is there a minimum order value for free delivery?",
+      question: "¿Los precios están en guaraníes?",
       answer:
-        "Yes, orders above ₹499 qualify for free delivery. A small delivery charge applies for smaller orders.",
+        "Sí, todos los precios están expresados en guaraníes paraguayos (Gs.) sin conversión ni comisión adicional.",
     },
   ];
 
@@ -45,12 +45,11 @@ const FAQ = () => {
       <div className="row">
         <div className="col-md-12 mb-6">
           <div className="section-head text-center mt-8">
-            <h1 className="h3style" style={{ color: "green" }} data-title="Frequently Asked Questions">
-              Frequently Asked Questions
+            <h1 className="h3style" style={{ color: "green" }} data-title="Preguntas frecuentes">
+              Preguntas frecuentes
             </h1>
             <div className="wt-separator bg-primarys"></div>
             <div className="wt-separator2 bg-primarys"></div>
-            {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
           </div>
         </div>
       </div>

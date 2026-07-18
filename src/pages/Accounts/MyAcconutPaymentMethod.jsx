@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MagnifyingGlass } from "react-loader-spinner";
 import amazonpay from "../../images/amazonpay.svg";
@@ -34,7 +34,7 @@ const MyAcconutPaymentMethod = () => {
                 <div className="col-12">
                   <div className="p-6 d-flex justify-content-between align-items-center d-md-none">
                     {/* heading */}
-                    <h3 className="fs-5 mb-0">Account Setting</h3>
+                    <h3 className="fs-5 mb-0">Configuración</h3>
                     {/* button */}
                     <button
                       className="btn btn-outline-gray-400 text-muted d-md-none"
@@ -59,7 +59,7 @@ const MyAcconutPaymentMethod = () => {
                           to="/MyAccountOrder"
                         >
                           <i className="fas fa-shopping-bag me-2" />
-                          Your Orders
+                          Mis pedidos
                         </Link>
                       </li>
                       {/* nav item */}
@@ -330,7 +330,7 @@ const MyAcconutPaymentMethod = () => {
                     href="/MyAccountOrder"
                   >
                     <i className="fas fa-shopping-bag me-2" />
-                    Your Orders
+                    Mis pedidos
                   </a>
                 </li>
                 {/* nav item */}
@@ -555,7 +555,7 @@ const MyAcconutPaymentMethod = () => {
                     </form>
                     <span>
                       <strong>Note:</strong> that you can later remove your card
-                      at the account setting page.
+                      at the Configuración page.
                     </span>
                   </div>
                 </div>

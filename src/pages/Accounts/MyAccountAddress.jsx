@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MagnifyingGlass } from "react-loader-spinner";
 import ScrollToTop from "../ScrollToTop";
@@ -29,7 +29,7 @@ const MyAccountAddress = () => {
                 <div className="col-12">
                   <div className="p-6 d-flex justify-content-between align-items-center d-md-none">
                     {/* heading */}
-                    <h3 className="fs-5 mb-0">Account Setting</h3>
+                    <h3 className="fs-5 mb-0">Configuración</h3>
                     <button
                       className="btn btn-outline-gray-400 text-muted d-md-none"
                       type="button"
@@ -55,7 +55,7 @@ const MyAccountAddress = () => {
                           to="/MyAccountOrder"
                         >
                           <i className="fas fa-shopping-bag me-2" />
-                          Your Orders
+                          Mis pedidos
                         </Link>
                       </li>
                       {/* nav item */}
@@ -124,7 +124,7 @@ const MyAccountAddress = () => {
                         <div className="p-6 p-lg-10">
                           <div className="d-flex justify-content-between mb-6">
                             {/* heading */}
-                            <h2 className="mb-0">Address</h2>
+                            <h2 className="mb-0">Direcciones</h2>
                             {/* button */}
                             <Link
                               to="#"
@@ -166,7 +166,7 @@ const MyAccountAddress = () => {
                                 </p>
                                 {/* btn */}
                                 <Link to="#" className="btn btn-info btn-sm">
-                                  Default address
+                                  Dirección predeterminada
                                 </Link>
                                 <div className="mt-4">
                                   <Link to="#" className="text-inherit">
@@ -481,7 +481,7 @@ const MyAccountAddress = () => {
                     href="/MyAccountOrder"
                   >
                     <i className="fas fa-shopping-bag me-2" />
-                    Your Orders
+                    Mis pedidos
                   </a>
                 </li>
                 {/* nav item */}

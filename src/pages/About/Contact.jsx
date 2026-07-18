@@ -17,7 +17,6 @@ const Contact = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -44,11 +43,10 @@ const Contact = () => {
                     <div className="offset-lg-2 col-lg-8 col-12">
                       <div className="mb-8">
                         {/* heading */}
-                        <h1 className="h3">Retailer Inquiries</h1>
+                        <h1 className="h3">Contacto</h1>
                         <p className="lead mb-0">
-                          This form is for retailer inquiries only. For all
-                          other customer or shopper support requests, please
-                          visit the links below this form.
+                          ¿Tenés alguna consulta, sugerencia o querés hacer un pedido especial?
+                          Completá el formulario y nos comunicaremos a la brevedad.
                         </p>
                       </div>
                       {/* form */}
@@ -57,80 +55,71 @@ const Contact = () => {
                         <div className="col-md-6 mb-3">
                           <label className="form-label">
                             {" "}
-                            First Name<span className="text-danger">*</span>
+                            Nombre<span className="text-danger">*</span>
                           </label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Enter Your First Name"
+                            placeholder="Tu nombre"
                           />
                         </div>
                         <div className="col-md-6 mb-3">
                           {/* input */}
                           <label className="form-label">
                             {" "}
-                            Last Name<span className="text-danger">*</span>
+                            Apellido<span className="text-danger">*</span>
                           </label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Enter Your Last name"
+                            placeholder="Tu apellido"
                           />
                         </div>
                         <div className="col-md-12 mb-3">
                           {/* input */}
                           <label className="form-label">
                             {" "}
-                            Company<span className="text-danger">*</span>
+                            Asunto<span className="text-danger">*</span>
                           </label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Your Company"
-                          />
-                        </div>
-                        <div className="col-md-12 mb-3">
-                          {/* input */}
-                          <label className="form-label"> Title</label>
-                          <input
-                            type="text"
-                            className="form-control"
-                            placeholder="Your Title"
+                            placeholder="Motivo de tu consulta"
                           />
                         </div>
                         <div className="col-md-6 mb-3">
                           <label className="form-label">
-                            Email<span className="text-danger">*</span>
+                            Correo electrónico<span className="text-danger">*</span>
                           </label>
                           <input
-                            type="text"
+                            type="email"
                             className="form-control"
-                            placeholder="Enter Your First Name"
+                            placeholder="tu@correo.com"
                           />
                         </div>
                         <div className="col-md-6 mb-3">
                           {/* input */}
-                          <label className="form-label"> Phone</label>
+                          <label className="form-label"> Teléfono</label>
                           <input
                             type="text"
                             className="form-control"
-                            placeholder="Your Phone Number"
+                            placeholder="Tu número de teléfono"
                           />
                         </div>
                         <div className="col-md-12 mb-3">
                           {/* input */}
-                          <label className="form-label"> Comments</label>
+                          <label className="form-label">Mensaje</label>
                           <textarea
                             rows={3}
                             className="form-control"
-                            placeholder="Additional Comments"
+                            placeholder="Escribí tu mensaje aquí..."
                             defaultValue={""}
                           />
                         </div>
                         <div className="col-md-12">
                           {/* btn */}
                           <Link to="#" className="btn btn-primary">
-                            Submit
+                            Enviar mensaje
                           </Link>
                         </div>
                       </form>

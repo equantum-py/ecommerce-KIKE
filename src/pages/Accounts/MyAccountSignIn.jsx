@@ -2,30 +2,12 @@ import React from "react";
 import signinimage from '../../images/signin-g.svg'
 import { Link } from "react-router-dom";
 import ScrollToTop from "../ScrollToTop";
-// import Grocerylogo from '../../images/Grocerylogo.png'
 
 const MyAccountSignIn = () => {
   return (
     <div>
       <>
         <div>
-          {/* navigation */}
-          {/* <div className="border-bottom shadow-sm">
-            <nav className="navbar navbar-light py-2">
-              <div className="container justify-content-center justify-content-lg-between">
-                <Link className="navbar-brand" to="../index.html">
-                  <img
-                    src={Grocerylogo}
-                    alt="freshcart"
-                    className="d-inline-block align-text-top"
-                  />
-                </Link>
-                <span className="navbar-text">
-                  Already have an account? <Link to="signin.html">Sign in</Link>
-                </span>
-              </div>
-            </nav>
-          </div> */}
           {/* section */}
           <>
             <ScrollToTop/>
@@ -38,17 +20,16 @@ const MyAccountSignIn = () => {
                   {/* img */}
                   <img
                     src={signinimage}
-                    alt="freshcart"
+                    alt="Iniciar sesión Antojo Casero"
                     className="img-fluid"
                   />
                 </div>
                 {/* col */}
                 <div className="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
                   <div className="mb-lg-9 mb-5">
-                    <h1 className="mb-1 h2 fw-bold">Sign in to FreshCart</h1>
+                    <h1 className="mb-1 h2 fw-bold">Iniciar sesión</h1>
                     <p>
-                      Welcome back to FreshCart! Enter your email to get
-                      started.
+                      ¡Bienvenido de vuelta! Ingresá tu correo para continuar.
                     </p>
                   </div>
                   <form>
@@ -60,7 +41,7 @@ const MyAccountSignIn = () => {
                           type="email"
                           className="form-control"
                           id="inputEmail4"
-                          placeholder="Email"
+                          placeholder="Correo electrónico"
                           required
                         />
                       </div>
@@ -70,7 +51,7 @@ const MyAccountSignIn = () => {
                           type="password"
                           className="form-control"
                           id="inputPassword4"
-                          placeholder="Password"
+                          placeholder="Contraseña"
                           required
                         />
                       </div>
@@ -88,26 +69,26 @@ const MyAccountSignIn = () => {
                             className="form-check-label"
                             htmlFor="flexCheckDefault"
                           >
-                            Remember me
+                            Recordarme
                           </label>
                         </div>
                         <div>
                           {" "}
-                          Forgot password?{" "}
-                          <Link to="/MyAccountForgetPassword">Reset it</Link>
+                          ¿Olvidaste tu contraseña?{" "}
+                          <Link to="/MyAccountForgetPassword">Recuperarla</Link>
                         </div>
                       </div>
                       {/* btn */}
                       <div className="col-12 d-grid">
                         {" "}
                         <button type="submit" className="btn btn-primary">
-                          Sign In
+                          Iniciar sesión
                         </button>
                       </div>
                       {/* link */}
                       <div>
-                        Don’t have an account?{" "}
-                        <Link to="/MyAccountSignUp"> Sign Up</Link>
+                        ¿No tenés cuenta?{" "}
+                        <Link to="/MyAccountSignUp"> Registrate</Link>
                       </div>
                     </div>
                   </form>

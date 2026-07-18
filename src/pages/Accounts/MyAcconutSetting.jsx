@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MagnifyingGlass } from "react-loader-spinner";
 import ScrollToTop from "../ScrollToTop";
@@ -29,7 +29,7 @@ const MyAcconutSetting = () => {
                 <div className="col-12">
                   <div className="p-6 d-flex justify-content-between align-items-center d-md-none">
                     {/* heading */}
-                    <h3 className="fs-5 mb-0">Account Setting</h3>
+                    <h3 className="fs-5 mb-0">Configuración de cuenta</h3>
                     {/* btn */}
                     <button
                       className="btn btn-outline-gray-400 text-muted d-md-none"
@@ -54,7 +54,7 @@ const MyAcconutSetting = () => {
                           to="/MyAccountOrder"
                         >
                           <i className="fas fa-shopping-bag me-2" />
-                          Your Orders
+                          Mis pedidos
                         </Link>
                       </li>
                       {/* nav item */}
@@ -123,7 +123,7 @@ const MyAcconutSetting = () => {
                         <div className="p-6 p-lg-10">
                           <div className="mb-6">
                             {/* heading */}
-                            <h2 className="mb-0">Account Setting</h2>
+                            <h2 className="mb-0">Configuración de cuenta</h2>
                           </div>
                           <div>
                             {/* heading */}
@@ -156,7 +156,7 @@ const MyAcconutSetting = () => {
                                     <input
                                       type="text"
                                       className="form-control"
-                                      placeholder="Phone number"
+                                      placeholder="Teléfono"
                                     />
                                   </div>
                                   {/* button */}
@@ -177,7 +177,7 @@ const MyAcconutSetting = () => {
                               {/* input */}
                               <div className="mb-3 col">
                                 <label className="form-label">
-                                  New Password
+                                  Nueva contraseña
                                 </label>
                                 <input
                                   type="password"
@@ -188,7 +188,7 @@ const MyAcconutSetting = () => {
                               {/* input */}
                               <div className="mb-3 col">
                                 <label className="form-label">
-                                  Current Password
+                                  Contraseña actual
                                 </label>
                                 <input
                                   type="password"
@@ -199,7 +199,7 @@ const MyAcconutSetting = () => {
                               {/* input */}
                               <div className="col-12">
                                 <p className="mb-4">
-                                  Can’t remember your current password?
+                                  Can’t remember your Contraseña actual?
                                   <Link to="#"> Reset your password.</Link>
                                 </p>
                                 <Link to="#" className="btn btn-primary">
@@ -211,7 +211,7 @@ const MyAcconutSetting = () => {
                           <hr className="my-10" />
                           <div>
                             {/* heading */}
-                            <h5 className="mb-4">Delete Account</h5>
+                            <h5 className="mb-4">Eliminar cuenta</h5>
                             <p className="mb-2">
                               Would you like to delete your account?
                             </p>
@@ -263,7 +263,7 @@ const MyAcconutSetting = () => {
                     href="/MyAccountOrder"
                   >
                     <i className="fas fa-shopping-bag me-2" />
-                    Your Orders
+                    Mis pedidos
                   </a>
                 </li>
                 {/* nav item */}

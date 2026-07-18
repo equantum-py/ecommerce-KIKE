@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import formatGuarani from "../utils/currency";
 import Grocerylogo from "../images/Grocerylogo.png";
 import menubanner from "../images/menu-banner.jpg";
 import productimage1 from '../images/product-img-1.jpg'
@@ -25,7 +26,7 @@ const Header = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-10 col-12 d-flex " style={{ alignItems: 'center' }}>
-                  <span> Super Value Deals - Save more with coupons</span>
+                  <span> Hecho en casa, con amor</span>
                 </div>
                 <div className="col-md-2 col-xxl-1 text-end d-none d-lg-block" style={{ marginLeft: '20px' }}>
                   <div className="list-inline">
@@ -129,7 +130,7 @@ const Header = () => {
                 style={{ width: "100%" }}
                 list="datalistOptions"
                 id="exampleDataList"
-                placeholder="Type to search..."
+                placeholder="Buscar productos caseros…"
               />
             </div>
             <div className="col-4 col-sm-4 col-lg-3 py-2 d-flex" style={{ justifyContent: 'center' }}>
@@ -237,7 +238,7 @@ const Header = () => {
             className="form-control responsivesearch "
             list="datalistOptions"
             id="exampleDataList"
-            placeholder="Type to search..."
+            placeholder="Buscar productos caseros…"
             fdprocessedid="9icrif"
             style={{ width: "35%" }}
           />
@@ -291,39 +292,33 @@ const Header = () => {
                     <rect x="3" y="14" width="7" height="7"></rect>
                   </svg>
                 </span>{" "}
-                All Departments
+                Todas las categorías
               </Link>
               <div
                 className="dropdown-menu sm-menu"
                 aria-labelledby="navbarDropdown"
               >
                 <Link className="dropdown-item" to="/Shop">
-                  Dairy, Bread &amp; Eggs
+                  Dulce
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Snacks &amp; Munchies
+                  Salado
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Fruits &amp; Vegetables
+                  Bebidas
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Cold Drinks &amp; Juices
+                  Postres
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Breakfast &amp; Instant Food
-                </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Bakery &amp; Biscuits
-                </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Chicken, Meat &amp; Fish
+                  Saludable
                 </Link>
               </div>
             </li>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/Grocery-react/">
-              Home
+              Inicio
             </Link>
           </li>
           <li className="nav-item dmenu dropdown">
@@ -336,7 +331,7 @@ const Header = () => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              About
+              Nosotros
             </Link>
             <div
               className="dropdown-menu sm-menu"
@@ -345,20 +340,14 @@ const Header = () => {
               <Link class="dropdown-item" to="/Blog">
                 Blog
               </Link>
-              {/* <Link className="dropdown-item" to="pages/blog-single.html">
-                    Blog Single
-                  </Link> */}
               <Link className="dropdown-item" to="/BlogCategory">
-                Blog Category
+                Blog Categoría
               </Link>
               <Link className="dropdown-item" to="/AboutUs">
-                About us
+                Sobre nosotros
               </Link>
-              {/* <Link className="dropdown-item" to="pages/404error.html">
-                    404 Error
-                  </Link> */}
               <Link className="dropdown-item" to="/Contact">
-                Contact
+                Contacto
               </Link>
             </div>
           </li>
@@ -373,23 +362,23 @@ const Header = () => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Shop
+              Productos
             </Link>
             <div
               className="dropdown-menu sm-menu"
               aria-labelledby="navbarDropdown"
             >
               <Link className="dropdown-item" to="/Shop">
-                Shop
+                Productos
               </Link>
               <Link className="dropdown-item" to="/ShopWishList">
-                Shop Wishlist
+                Favoritos
               </Link>
               <Link className="dropdown-item" to="/ShopCart">
-                Shop Cart
+                Carrito
               </Link>
               <Link className="dropdown-item" to="/ShopCheckOut">
-                Shop Checkout
+                Finalizar compra
               </Link>
             </div>
           </li>
@@ -404,20 +393,23 @@ const Header = () => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Stores
+              Mi cuenta
             </Link>
             <div
               className="dropdown-menu sm-menu"
               aria-labelledby="navbarDropdown"
             >
-              <Link className="dropdown-item" to="/StoreList">
-                Store List
+              <Link className="dropdown-item" to="/MyAccountOrder">
+                Mis pedidos
               </Link>
-              {/* <Link className="dropdown-item" to="pages/store-grid.html">
-                    Store Grid
-                  </Link> */}
-              <Link className="dropdown-item" to="/SingleShop">
-                Single Store
+              <Link className="dropdown-item" to="/MyAccountSetting">
+                Configuración
+              </Link>
+              <Link className="dropdown-item" to="/MyAccountAddress">
+                Direcciones
+              </Link>
+              <Link className="dropdown-item" to="/MyAccountSignIn">
+                Cerrar sesión
               </Link>
             </div>
           </li>
@@ -482,7 +474,7 @@ const Header = () => {
                 <div className="col-sm-6 col-lg-3 border-right mb-4">
                   <div>
                     <h6 className="text-primary ps-3">
-                      Dairy, Bread &amp; Eggs
+                      Dulce
                     </h6>
                     <Link className="dropdown-item" to="/Shop">
                       Butter
@@ -497,7 +489,7 @@ const Header = () => {
                       Eggs
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Buns &amp; Bakery
+                      Postres
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       Cheese
@@ -506,7 +498,7 @@ const Header = () => {
                       Condensed Milk
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Dairy Products
+                      Lácteos
                     </Link>
                   </div>
                 </div>
@@ -523,11 +515,11 @@ const Header = () => {
                       Noodles, Pasta &amp; Soup
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
-                      Frozen Veg Snacks
+                      Snacks
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
-                      Frozen Non-Veg Snacks
+                      Salado
                     </Link>
                     <Link className="dropdown-item" to="/Shop">
                       {" "}
@@ -597,7 +589,7 @@ const Header = () => {
                         to="/Shop"
                         className="btn btn-primary btn-sm mt-3"
                       >
-                        Shop Now
+                        Ver productos
                       </Link>
                     </div>
                   </div>
@@ -1151,7 +1143,7 @@ const Header = () => {
                 type="submit"
               >
                 {" "}
-                Go to Checkout <span className="fw-bold">$120.00</span>
+                Finalizar compra <span className="fw-bold">{formatGuarani(120000)}</span>
               </button>
             </div>
           </div>

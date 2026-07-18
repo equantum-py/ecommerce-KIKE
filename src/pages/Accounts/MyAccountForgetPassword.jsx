@@ -20,7 +20,7 @@ const MyAccountForgetPassword = () => {
                 {/* img */}
                 <img
                   src={forgetpassword}
-                  alt="freshcart"
+                  alt="Recuperar contraseña Antojo Casero"
                   className="img-fluid"
                 />
               </div>
@@ -28,11 +28,10 @@ const MyAccountForgetPassword = () => {
                 <div>
                   <div className="mb-lg-9 mb-5">
                     {/* heading */}
-                    <h1 className="mb-2 h2 fw-bold">Forgot your password?</h1>
+                    <h1 className="mb-2 h2 fw-bold">¿Olvidaste tu contraseña?</h1>
                     <p>
-                      Please enter the email address associated with your
-                      account and We will email you a link to reset your
-                      password.
+                      Ingresá el correo electrónico asociado a tu cuenta y te
+                      enviaremos un enlace para restablecer tu contraseña.
                     </p>
                   </div>
                   {/* form */}
@@ -46,23 +45,23 @@ const MyAccountForgetPassword = () => {
                           type="email"
                           className="form-control"
                           id="inputEmail4"
-                          placeholder="Email"
+                          placeholder="Correo electrónico"
                           required
                         />
                         <span className="navbar-text">
-                          Already have an account?{" "}
+                          ¿Ya tenés cuenta?{" "}
 
-                          <Link to="/MyAccountSignIn">Sign in</Link>
+                          <Link to="/MyAccountSignIn">Iniciar sesión</Link>
                         </span>
                       </div>
                       {/* btn */}
                       <div className="col-12 d-grid gap-2">
                         {" "}
                         <button type="submit" className="btn btn-primary">
-                          Reset Password
+                          Recuperar contraseña
                         </button>
                         <Link to="/MyAccountSignUp" className="btn btn-light">
-                          Back
+                          Volver
                         </Link>
                       </div>
                     </div>

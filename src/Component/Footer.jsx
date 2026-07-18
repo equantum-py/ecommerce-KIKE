@@ -30,39 +30,36 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="mb-30">
-                    We deliver more than your expectations and help you to grow
-                    your business exponentially by providing customized
-                    applications. So, don’t just think, get ready to convert
-                    your ideas into reality.
+                    Preparamos con amor cada producto casero. Sabores que recuerdan a casa.
                   </p>
                 </div>
                 <div className="dimc-protect">
                   <div className="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">
-                    <h4>Payment Partners</h4>
+                    <h4>Métodos de pago</h4>
                     <ul className="list-inline d-flex mb-0">
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={amazonpay} alt="footerfreshcart" />
+                          <img src={amazonpay} alt="logo de pago" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={american} alt="footerfreshcart" />
+                          <img src={american} alt="logo de pago" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={mastercard} alt="footerfreshcart" />
+                          <img src={mastercard} alt="logo de pago" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={paypal} alt="footerfreshcart" />
+                          <img src={paypal} alt="logo de pago" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={visa} alt="footerfreshcart" />
+                          <img src={visa} alt="logo de pago" />
                         </Link>
                       </li>
                     </ul>
@@ -71,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
-                  <h4>All Category</h4>
+                  <h4>Categorías</h4>
                   <div className="line-footer" />
                   <div className="row">
                     <div className="col">
@@ -81,7 +78,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Dairy, Bread &amp; Eggs
+                            Dulce
                           </Link>
                         </li>
                         <li>
@@ -89,7 +86,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Snacks &amp; Munchies
+                            Salado
                           </Link>
                         </li>
                         <li>
@@ -97,7 +94,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Fruits &amp; Vegetables
+                            Bebidas
                           </Link>
                         </li>
                         <li>
@@ -105,7 +102,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Cold Drinks &amp; Juices
+                            Postres
                           </Link>
                         </li>
                         <li>
@@ -113,40 +110,9 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Breakfast &amp; Instant Food
+                            Saludable
                           </Link>
                         </li>
-                        <li>
-                          <Link to=" ">
-                            <span>
-                              <i className="fa fa-angle-right" />
-                            </span>{" "}
-                            Bakery &amp; Biscuits
-                          </Link>
-                        </li>
-                        <li>
-                          <Link to=" ">
-                            <span>
-                              <i className="fa fa-angle-right" />
-                            </span>{" "}
-                            Chicken, Meat &amp; Fish
-                          </Link>
-                        </li>
-                        {/* <li>
-                              <Link to=" ">
-                                  <span><i className="fa fa-angle-right"></i></span> Privacy Policy
-                              </Link>
-                          </li>
-                          <li>
-                              <Link to="">
-                                  <span><i className="fa fa-angle-right"></i></span> Faqs
-                              </Link>
-                          </li>
-                          <li>
-                              <Link to="">
-                                  <span><i className="fa fa-angle-right"></i></span> Career
-                              </Link>
-                          </li> */}
                       </ul>
                     </div>
                   </div>
@@ -154,7 +120,7 @@ const Footer = () => {
               </div>
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
-                  <h4>For Consumers</h4>
+                  <h4>Navegación</h4>
                   <div className="line-footer" />
                   <div className="row">
                     <div className="col">
@@ -164,7 +130,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Careers
+                            Inicio
                           </Link>
                         </li>
                         <li>
@@ -172,7 +138,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Promos &amp; coupons
+                            Productos
                           </Link>
                         </li>
                         <li>
@@ -180,7 +146,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>
-                            Shipping
+                            Carrito
                           </Link>
                         </li>
                         <li>
@@ -188,7 +154,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Product Returns
+                            Favoritos
                           </Link>
                         </li>
                         <li>
@@ -196,7 +162,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Payments
+                            Finalizar compra
                           </Link>
                         </li>
                         <li>
@@ -204,7 +170,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            FAQ
+                            Preguntas frecuentes
                           </Link>
                         </li>
                       </ul>
@@ -214,7 +180,7 @@ const Footer = () => {
               </div>
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
-                  <h4>Get to know us</h4>
+                  <h4>Antojo Casero</h4>
                   <div className="line-footer" />
                   <div className="row">
                     <div className="col">
@@ -224,7 +190,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Company
+                            Sobre nosotros
                           </Link>
                         </li>
                         <li>
@@ -232,7 +198,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            About
+                            Nosotros
                           </Link>
                         </li>
                         <li>
@@ -248,7 +214,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />{" "}
                             </span>{" "}
-                            Help Center
+                            Centro de ayuda
                           </Link>
                         </li>
                         <li>
@@ -256,7 +222,7 @@ const Footer = () => {
                             <span>
                               <i className="fa fa-angle-right" />
                             </span>{" "}
-                            Our Value
+                            Contacto
                           </Link>
                         </li>
                       </ul>
@@ -268,7 +234,7 @@ const Footer = () => {
                     <input
                       type="email"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Tu correo electrónico"
                       className="form-control form-control-lg"
                       required
                     />
@@ -309,14 +275,7 @@ const Footer = () => {
             <div className="container text-center">
               <div className="footer-copy">
                 <div className="copyright">
-                  © {year} All Rights Reserved By _
-                  
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                     @nigammishra
-                  </Link>
+                  © {year} Antojo Casero. Todos los derechos reservados.
                 </div>
               </div>
             </div>

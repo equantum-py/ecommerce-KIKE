@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { MagnifyingGlass } from "react-loader-spinner";
 import ScrollToTop from "../ScrollToTop";
@@ -29,7 +29,7 @@ const MyAcconutNotification = () => {
                 {/* text */}
                 <div className="p-6 d-flex justify-content-between align-items-center d-md-none">
                   {/* heading */}
-                  <h3 className="fs-5 mb-0">Account Setting</h3>
+                  <h3 className="fs-5 mb-0">Configuración</h3>
                   {/* btn */}
                   <button
                     className="btn btn-outline-gray-400 text-muted d-md-none"
@@ -55,7 +55,7 @@ const MyAcconutNotification = () => {
                         to="/MyAccountOrder"
                       >
                         <i className="fas fa-shopping-bag me-2" />
-                        Your Orders
+                        Mis pedidos
                       </Link>
                     </li>
                     {/* nav item */}
@@ -354,7 +354,7 @@ const MyAcconutNotification = () => {
                   href="/MyAccountOrder"
                 >
                   <i className="fas fa-shopping-bag me-2" />
-                  Your Orders
+                  Mis pedidos
                 </a>
               </li>
               {/* nav item */}

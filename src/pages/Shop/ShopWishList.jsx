@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import productimage15 from '../../images/product-img-15.jpg'
@@ -51,8 +52,8 @@ const ShopWishList = () => {
               <div className="offset-lg-1 col-lg-10">
                 <div className="mb-8">
                   {/* heading */}
-                  <h1 className="mb-1">My Wishlist</h1>
-                  <p>There are 5 products in this wishlist.</p>
+                  <h1 className="mb-1">Mis favoritos</h1>
+                  <p>Tenés 5 productos en tus favoritos.</p>
                 </div>
                 <div>
                   {/* table */}
@@ -78,11 +79,11 @@ const ShopWishList = () => {
                             </div>
                           </th>
                           <th />
-                          <th>Product</th>
-                          <th>Amount</th>
-                          <th>Status</th>
-                          <th>Actions</th>
-                          <th>Remove</th>
+                          <th>Producto</th>
+                          <th>Precio</th>
+                          <th>Estado</th>
+                          <th>Acción</th>
+                          <th>Eliminar</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -109,7 +110,7 @@ const ShopWishList = () => {
                               <img
                                 src={productimage18}
                                 className="img-fluid icon-shape icon-xxl"
-                                alt="product"
+                                alt="Producto Antojo Casero"
                               />
                             </Link>
                           </td>
@@ -117,19 +118,19 @@ const ShopWishList = () => {
                             <div>
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Organic Banana
+                                  Empanada casera de carne
                                 </Link>
                               </h5>
-                              <small>$.98 / lb</small>
+                              <small>Unidad</small>
                             </div>
                           </td>
-                          <td className="align-middle">$35.00</td>
+                          <td className="align-middle">{formatGuarani(35000)}</td>
                           <td className="align-middle">
-                            <span className="badge bg-success">In Stock</span>
+                            <span className="badge bg-success">Disponible</span>
                           </td>
                           <td className="align-middle">
                             <div className="btn btn-primary btn-sm">
-                              Add to Cart
+                              Agregar al carrito
                             </div>
                           </td>
                           <td className="align-middle text-center">

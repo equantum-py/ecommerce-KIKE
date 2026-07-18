@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import bloglarge from "../../images/blog-large.jpg";
 import blog1 from "../../images/blog-img-1.jpg";
@@ -52,7 +52,7 @@ const Blog = () => {
                     <div className="row">
                       {/* logo */}
                       <div className="col-12">
-                        <h1 className="fw-bold">FreshCart Blog</h1>
+                        <h1 className="fw-bold">Blog de Antojo Casero</h1>
                       </div>
                     </div>
                   </div>

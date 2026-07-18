@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { MagnifyingGlass } from "react-loader-spinner";
@@ -121,7 +121,7 @@ const ShopListCol = () => {
           <div className="container">
             <div className="row fixed-side">
               {/* Vertical Dropdowns Column */}
-              <h5 className="mb-3 mt-8">Categories</h5>
+              <h5 className="mb-3 mt-8">Categorías</h5>
               <div className="col-md-3">
                 {dropdownData.map((dropdown, index) => (
                   <ul className="nav flex-column" key={index}>
@@ -280,7 +280,7 @@ const ShopListCol = () => {
                   <div>
                     {/* range */}
                     <div id="priceRange" className="mb-3" />
-                    <small className="text-muted">Price:</small>{" "}
+                    <small className="text-muted">Precio:</small>{" "}
                     <span id="priceRange-value" className="small" />
                   </div>
                 </div>
@@ -383,7 +383,7 @@ const ShopListCol = () => {
                     <h3 className="mb-0">Fresh Fruits </h3>
                     <p>Get Upto 25% Off</p>
                     <Link to="#" className="btn btn-dark">
-                      Shop Now
+                      Ver productos
                       <i className="feather-icon icon-arrow-right ms-1" />
                     </Link>
                   </div>
@@ -462,13 +462,13 @@ const ShopListCol = () => {
                               className="form-select"
                               aria-label="Default select example"
                             >
-                              <option selected>Sort by: Featured</option>
+                              <option selected>Ordenar por: Featured</option>
                               <option value="Low to High">
-                                Price: Low to High
+                                Precio: Low to High
                               </option>
                               <option value="High to Low">
                                 {" "}
-                                Price: High to Low
+                                Precio: High to Low
                               </option>
                               <option value="Release Date">
                                 {" "}
@@ -558,7 +558,7 @@ const ShopListCol = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -566,7 +566,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -575,7 +575,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -678,7 +678,7 @@ const ShopListCol = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -686,7 +686,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -695,7 +695,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -804,7 +804,7 @@ const ShopListCol = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -812,7 +812,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -821,7 +821,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -927,7 +927,7 @@ const ShopListCol = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -935,7 +935,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -944,7 +944,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -1050,7 +1050,7 @@ const ShopListCol = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -1058,7 +1058,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -1067,7 +1067,7 @@ const ShopListCol = () => {
                                         className="btn btn-icon btn-sm btn-outline-gray-400 text-muted"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>

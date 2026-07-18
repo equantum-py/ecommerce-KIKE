@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import productimg1 from "../../images/product-img-1.jpg";
@@ -12,10 +12,10 @@ import ScrollToTop from "../ScrollToTop";
 
 const MyAccountOrder = () => {
   // loading
-  const [loaderStatus, setLoaderStatus] = useState(true);
+  const [loaderEstado, setLoaderEstado] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setLoaderStatus(false);
+      setLoaderEstado(false);
     }, 1500);
   }, []);
 
@@ -36,7 +36,7 @@ const MyAccountOrder = () => {
               <div className="col-12">
                 <div className="p-6 d-flex justify-content-between align-items-center d-md-none">
                   {/* heading */}
-                  <h3 className="fs-5 mb-0">Account Setting</h3>
+                  <h3 className="fs-5 mb-0">Configuración de cuenta</h3>
                   {/* button */}
                   <button
                     className="btn btn-outline-gray-400 text-muted d-md-none"
@@ -62,7 +62,7 @@ const MyAccountOrder = () => {
                         to="/MyAccountOrder"
                       >
                         <i className="fas fa-shopping-bag me-2" />
-                        Your Orders
+                        Mis pedidos
                       </Link>
                     </li>
                     {/* nav item */}
@@ -111,9 +111,9 @@ const MyAccountOrder = () => {
 
               <div className="col-lg-9 col-md-8 col-12">
                 <div>
-                  {loaderStatus ? (
+                  {loaderEstado ? (
                     <div className="loader-container">
-                      {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+                      {/* <PulseLoader loading={loaderEstado} size={50} color="#0aad0a" /> */}
                       <MagnifyingGlass
                         visible={true}
                         height="100"
@@ -129,7 +129,7 @@ const MyAccountOrder = () => {
                     <>
                       <div className="p-6 p-lg-10">
                         {/* heading */}
-                        <h2 className="mb-6">Your Orders</h2>
+                        <h2 className="mb-6">Mis pedidos</h2>
                         <div className="table-responsive border-0">
                           {/* Table */}
                           <table className="table mb-0 text-nowrap">
@@ -141,7 +141,7 @@ const MyAccountOrder = () => {
                                 <th className="border-0">Order</th>
                                 <th className="border-0">Date</th>
                                 <th className="border-0">Items</th>
-                                <th className="border-0">Status</th>
+                                <th className="border-0">Estado</th>
                                 <th className="border-0">Amount</th>
                                 <th className="border-0" />
                               </tr>
@@ -183,7 +183,7 @@ const MyAccountOrder = () => {
                                 <td className="align-middle border-top-0">1</td>
                                 <td className="align-middle border-top-0">
                                   <span className="badge bg-warning">
-                                    Processing
+                                    En proceso
                                   </span>
                                 </td>
                                 <td className="align-middle border-top-0">
@@ -472,7 +472,7 @@ const MyAccountOrder = () => {
                   href="/MyAccountOrder"
                 >
                   <i className="fas fa-shopping-bag me-2" />
-                  Your Orders
+                  Mis pedidos
                 </a>
               </li>
               {/* nav item */}

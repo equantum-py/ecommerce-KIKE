@@ -5,14 +5,14 @@ const Coupons = () => {
   const [message, setMessage] = useState("");
 
   const coupons = [
-    { code: "SAVE50", description: "Get ₹50 off on orders above ₹499" },
-    { code: "FRESH20", description: "20% off on fresh vegetables" },
-    { code: "FREESHIP", description: "Free delivery on orders above ₹299" },
+    { code: "ANTOJO10", description: "10% de descuento en tu primer pedido" },
+    { code: "CASERO5K", description: "Gs. 5.000 de descuento en pedidos mayores a Gs. 30.000" },
+    { code: "DULCE15", description: "15% de descuento en productos de la categoría Dulce" },
   ];
 
   const applyCoupon = (code) => {
     setAppliedCode(code);
-    setMessage(`Coupon "${code}" applied successfully! 🎉`);
+    setMessage(`¡Cupón "${code}" aplicado con éxito! 🎉`);
   };
 
   return (
@@ -23,13 +23,12 @@ const Coupons = () => {
             <h1
               className="h3style"
               style={{ color: "green" }}
-              data-title="Available Coupons & Promo Codes"
+              data-title="Cupones y promociones disponibles"
             >
-              Available Coupons & Promo Codes
+              Cupones y promociones disponibles
             </h1>
             <div className="wt-separator bg-primarys"></div>
             <div className="wt-separator2 bg-primarys"></div>
-            {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
           </div>
         </div>
       </div>
@@ -43,7 +42,7 @@ const Coupons = () => {
               onClick={() => applyCoupon(coupon.code)}
               disabled={appliedCode === coupon.code}
             >
-              {appliedCode === coupon.code ? "Applied" : "Apply"}
+              {appliedCode === coupon.code ? "Aplicado" : "Aplicar"}
             </button>
           </div>
         ))}

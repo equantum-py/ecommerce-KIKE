@@ -1,4 +1,4 @@
-import slider1 from "../images/slide-1.jpg";
+﻿import slider1 from "../images/slide-1.jpg";
 import abouticon from "../images/about-icons-1.svg";
 import slider2 from "../images/slider-2.jpg";
 import adbanner1 from "../images/ad-banner-1.jpg";
@@ -251,17 +251,16 @@ const Home = () => {
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Opening Sale Discount 50%
+                              Hecho en casa, con amor
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                              SuperMarket Daily <br /> Fresh Grocery
+                              Sabores caseros <br /> preparados con amor
                             </h2>
                             <p className="lead">
-                              Introduced a new model for online grocery shopping
-                              and convenient home delivery.
+                              Dulces, comidas saladas, bebidas naturales y postres hechos en casa.
                             </p>
-                            <Link to="#!" className="btn btn-dark mt-3">
-                              Shop Now{" "}
+                            <Link to="/Shop" className="btn btn-dark mt-3">
+                              Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
                           </div>
@@ -278,18 +277,17 @@ const Home = () => {
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Free Shipping - orders over $100
+                              Preparación artesanal
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                              Free Shipping on <br /> orders over{" "}
-                              <span className="text-primary">$100</span>
+                              Ingredientes <br /> seleccionados{" "}
+                              <span className="text-primary">con amor</span>
                             </h2>
                             <p className="lead">
-                              Free Shipping to First-Time Customers Only, After
-                              promotions and discounts are applied.
+                              Cada producto es preparado con ingredientes seleccionados para cada preparación.
                             </p>
-                            <Link to="#!" className="btn btn-dark mt-3">
-                              Shop Now{" "}
+                            <Link to="/Shop" className="btn btn-dark mt-3">
+                              Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
                           </div>
@@ -306,7 +304,7 @@ const Home = () => {
                         className="carousel-control-prev-icon"
                         aria-hidden="true"
                       />
-                      <span className="visually-hidden">Previous</span>
+                      <span className="visually-hidden">Anterior</span>
                     </Link>
                     <Link
                       className="carousel-control-next"
@@ -318,7 +316,7 @@ const Home = () => {
                         className="carousel-control-next-icon"
                         aria-hidden="true"
                       />
-                      <span className="visually-hidden">Next</span>
+                      <span className="visually-hidden">Siguiente</span>
                     </Link>
                   </div>
                 </div>
@@ -344,19 +342,17 @@ const Home = () => {
                             {/* text */}
                             <div className="ms-lg-4">
                               <h1 className="fs-2 mb-1">
-                                Welcome to FreshCart
+                                Bienvenido a Antojo Casero
                               </h1>
                               <span>
-                                Download the app get free food &amp;{" "}
-                                <span className="text-primary">$30</span> off on
-                                your first order.
+                                Hecho en casa, con amor.
                               </span>
                             </div>
                           </div>
                           <div className="mt-3 mt-lg-0">
                             {/* btn */}
-                            <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
+                            <Link to="/Shop" className="btn btn-dark">
+                              Ver productos
                             </Link>
                           </div>
                         </div>
@@ -385,20 +381,14 @@ const Home = () => {
                             />
                             <div className="banner-text">
                               <h3 className="mb-0 fw-bold">
-                                10% cashback on <br />
-                                personal care{" "}
+                                Comidas saladas <br />
+                                preparadas artesanalmente{" "}
                               </h3>
                               <div className="mt-4 mb-5 fs-5">
-                                <p className="mb-0">Max cashback: $12</p>
-                                <span>
-                                  Code:{" "}
-                                  <span className="fw-bold text-dark">
-                                    CARE12
-                                  </span>
-                                </span>
+                                <p className="mb-0">Hechas con ingredientes seleccionados</p>
                               </div>
-                              <Link to="#" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/Shop" className="btn btn-dark">
+                                Ver productos
                               </Link>
                             </div>
                             {/* Banner Content */}
@@ -421,15 +411,15 @@ const Home = () => {
                             <div className="banner-text">
                               {/* Banner Content */}
                               <h3 className=" fw-bold mb-2">
-                                Say yes to <br />
-                                season’s fresh{" "}
+                                Bebidas naturales <br />
+                                {" "}
                               </h3>
                               <p className="fs-5">
-                                Refresh your day <br />
-                                the fruity way
+                                Jugos caseros <br />
+                                y refrescantes
                               </p>
-                              <Link to="#" className="btn btn-dark mt-2">
-                                Shop Now
+                              <Link to="/Shop" className="btn btn-dark mt-2">
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -449,17 +439,17 @@ const Home = () => {
                             {/* Banner Content */}
                             <div className="banner-text">
                               <h3 className="fs-2 fw-bold lh-1 mb-2">
-                                When in doubt,
+                                Postres caseros
                                 <br />
-                                eat ice cream{" "}
+                                {" "}
                               </h3>
                               <p className="fs-5">
-                                Enjoy a scoop of
+                                Bizcochuelos
                                 <br />
-                                summer today
+                                y más
                               </p>
-                              <Link to="#" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/Shop" className="btn btn-dark">
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -482,9 +472,9 @@ const Home = () => {
                         <div className="section-head text-center mt-8">
                           <h3
                             className="h3style"
-                            data-title="Shop Popular Categories"
+                            data-title="Elegí lo que más te gusta"
                           >
-                            Shop Popular Categories
+                            Elegí lo que más te gusta
                           </h3>
                           <div className="wt-separator bg-primarys"></div>
                           <div className="wt-separator2 bg-primarys"></div>
@@ -510,7 +500,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Dairy, Bread &amp; Eggs
+                                  Dulce
                                 </Link>
                               </h5>
                             </div>
@@ -534,7 +524,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Fruits &amp; Vegetables
+                                  Salado
                                 </Link>
                               </h5>
                             </div>
@@ -558,7 +548,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Snack &amp; Munchies
+                                  Bebidas
                                 </Link>
                               </h5>
                             </div>
@@ -582,7 +572,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Bakery &amp; Biscuits
+                                  Postres
                                 </Link>
                               </h5>
                             </div>
@@ -606,7 +596,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Instant Food
+                                  Saludable
                                 </Link>
                               </h5>
                             </div>
@@ -629,7 +619,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Tea, Coffee &amp; Drinks
+                                  Dulce
                                 </Link>
                               </h5>
                             </div>
@@ -652,7 +642,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Cold Drinks &amp; Juices
+                                  Salado
                                 </Link>
                               </h5>
                             </div>
@@ -675,7 +665,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Chicken, Meat &amp; Fish
+                                  Bebidas
                                 </Link>
                               </h5>
                             </div>
@@ -700,7 +690,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Baby Care
+                                  Postres
                                 </Link>
                               </h5>
                             </div>
@@ -724,7 +714,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Cleaning Essentials
+                                  Saludable
                                 </Link>
                               </h5>
                             </div>
@@ -748,7 +738,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Pet Care
+                                  Dulce
                                 </Link>
                               </h5>
                             </div>
@@ -801,14 +791,13 @@ const Home = () => {
                           >
                             <div>
                               <h3 className="fw-bold mb-1">
-                                Fruits &amp; Vegetables
+                                Sabores del campo
                               </h3>
                               <p className="mb-4">
-                                Get Upto <span className="fw-bold">30%</span>{" "}
-                                Off
+                                Ingredientes seleccionados
                               </p>
-                              <Link to="#!" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/Shop" className="btn btn-dark">
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -828,14 +817,13 @@ const Home = () => {
                           >
                             <div>
                               <h3 className="fw-bold mb-1">
-                                Freshly Baked Buns
+                                Preparaciones artesanales
                               </h3>
                               <p className="mb-4">
-                                Get Upto <span className="fw-bold">25%</span>{" "}
-                                Off
+                                Sabor que recuerda a casa
                               </p>
-                              <Link to="#!" className="btn btn-dark">
-                                Shop Now
+                              <Link to="/Shop" className="btn btn-dark">
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -867,10 +855,9 @@ const Home = () => {
                         <div className="mb-6">
                           <div className="mb-7">
                             {/* heading */}
-                            <h1>Get the FreshCart app</h1>
+                            <h1>Antojo Casero</h1>
                             <h5 className="mb-0">
-                              We will send you a link, open it on your phone to
-                              download the app.
+                              Hecho en casa, con amor. Sabores que recuerdan a casa.
                             </h5>
                           </div>
                           <div className="mb-5">
@@ -974,8 +961,8 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-12 mb-6">
                       <div className="section-head text-center mt-8">
-                        <h3 className="h3style" data-title="Daily Best Sells">
-                          Daily Best Sells
+                        <h3 className="h3style" data-title="Productos destacados">
+                          Productos destacados
                         </h3>
                         <div className="wt-separator bg-primarys"></div>
                         <div className="wt-separator2 bg-primarys"></div>
@@ -995,13 +982,13 @@ const Home = () => {
                       >
                         <div>
                           <h3 className="fw-bold text-white">
-                            100% Organic Coffee Beans.
+                            Productos de Antojo Casero
                           </h3>
                           <p className="text-white">
-                            Get the best deal before close.
+                            Preparados con amor cada día.
                           </p>
-                          <Link to="#!" className="btn btn-primary">
-                            Shop Now{" "}
+                          <Link to="/Shop" className="btn btn-primary">
+                            Ver productos{" "}
                             <i className="feather-icon icon-arrow-right ms-1" />
                           </Link>
                         </div>
@@ -1034,7 +1021,7 @@ const Home = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -1042,7 +1029,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -1051,7 +1038,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -1062,7 +1049,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>Postres</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1070,7 +1057,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      Bizcochuelo de naranja
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1111,7 +1098,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      Agregar al carrito{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1148,7 +1135,7 @@ const Home = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -1156,7 +1143,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -1165,7 +1152,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -1176,7 +1163,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>Postres</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1184,7 +1171,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      Bizcochuelo de naranja
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1225,7 +1212,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      Agregar al carrito{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1262,7 +1249,7 @@ const Home = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -1270,7 +1257,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -1279,7 +1266,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -1290,7 +1277,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>Postres</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1298,7 +1285,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      Bizcochuelo de naranja
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1339,7 +1326,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      Agregar al carrito{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1376,7 +1363,7 @@ const Home = () => {
                                           className="bi bi-eye"
                                           data-bs-toggle="tooltip"
                                           data-bs-html="true"
-                                          title="Quick View"
+                                          title="Vista rápida"
                                         />
                                       </Link>
                                       <Link
@@ -1384,7 +1371,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Wishlist"
+                                        title="Favoritos"
                                       >
                                         <i className="bi bi-heart" />
                                       </Link>
@@ -1393,7 +1380,7 @@ const Home = () => {
                                         className="btn-action"
                                         data-bs-toggle="tooltip"
                                         data-bs-html="true"
-                                        title="Compare"
+                                        title="Comparar"
                                       >
                                         <i className="bi bi-arrow-left-right" />
                                       </Link>
@@ -1404,7 +1391,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-decoration-none text-muted"
                                     >
-                                      <small>Fruits &amp; Vegetables</small>
+                                      <small>Postres</small>
                                     </Link>
                                   </div>
                                   <h2 className="fs-6">
@@ -1412,7 +1399,7 @@ const Home = () => {
                                       to="#!"
                                       className="text-inherit text-decoration-none"
                                     >
-                                      Golden Pineapple
+                                      Bizcochuelo de naranja
                                     </Link>
                                   </h2>
                                   <div className="d-flex justify-content-between align-items-center mt-3">
@@ -1453,7 +1440,7 @@ const Home = () => {
                                         <line x1={12} y1={5} x2={12} y2={19} />
                                         <line x1={5} y1={12} x2={19} y2={12} />
                                       </svg>{" "}
-                                      Add to cart{" "}
+                                      Agregar al carrito{" "}
                                     </Link>
                                   </div>
                                   <div className="d-flex justify-content-start text-center mt-3">
@@ -1515,7 +1502,7 @@ const Home = () => {
                               <h3 className="h5 mb-3">Wide Assortment</h3>
                               <p>
                                 Choose from 5000+ products across food, personal
-                                care, household, bakery, veg and non-veg &amp;
+                                Dulce, Salado, Bebidas, Postres y Saludable
                                 other categories.
                               </p>
                             </div>
@@ -1560,7 +1547,7 @@ const Home = () => {
                               <h3 className="h5 mb-3">10 minute grocery now</h3>
                               <p>
                                 Get your order delivered to your doorstep at the
-                                earliest from FreshCart pickup
+                                recogida en Antojo Casero
                                 <p> stores near you.</p>
                               </p>
                             </div>
@@ -1584,7 +1571,7 @@ const Home = () => {
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
             <img src={product6} alt="Grocery Ecommerce Template" className="mb-3 style={{paddingLeft:'40px'}} " />
-            <div>Dairy, Bread &amp; Eggs</div>
+            <div>Dulce</div>
           </div>
         </div>
      </Link>
@@ -1607,7 +1594,7 @@ const Home = () => {
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
             <img src={product3} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
-            <div>Bakery &amp; Biscuits</div>
+            <div>Postres</div>
           </div>
         </div>
      </Link></div>
@@ -1725,7 +1712,7 @@ const Home = () => {
                         alt="product"
                       />
                        <h6 class="card-title">
-                       <div>Bakery &amp; Biscuits</div>
+                       <div>Postres</div>
                       </h6>
                     </div>
                   </div>
@@ -1764,7 +1751,7 @@ const Home = () => {
                         alt="product"
                       />
                        <h6 class="card-title">
-                       <div>Dairy, Bread &amp; Eggs</div>
+                       <div>Dulce</div>
                       </h6>
                     </div>
                   </div>

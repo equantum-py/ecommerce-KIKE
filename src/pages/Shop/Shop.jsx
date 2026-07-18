@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { MagnifyingGlass } from 'react-loader-spinner'
 import assortment from "../../images/assortment-citrus-fruits.png";
+import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -61,7 +62,7 @@ color="#0aad0a"
 
       <div className="row">
         {/* Vertical Dropdowns Column */}
-        <h5 className="mb-3 mt-8">Categories</h5>
+        <h5 className="mb-3 mt-8">Categorías</h5>
         <div className="col-md-3">
           {dropdownData.map((dropdown, index) => (
             <ul className="nav flex-column" key={index}>
@@ -101,13 +102,13 @@ color="#0aad0a"
           ))}
           <div>
             <div className="py-4">
-              <h5 className="mb-3">Stores</h5>
+              <h5 className="mb-3">Tiendas</h5>
               <div className="my-4">
                 {/* input */}
                 <input
                   type="search"
                   className="form-control"
-                  placeholder="Search by store"
+                  placeholder="Buscar por categoría"
                 />
               </div>
               {/* form check */}
@@ -218,17 +219,17 @@ color="#0aad0a"
             </div>
             <div className="py-4">
               {/* price */}
-              <h5 className="mb-3">Price</h5>
+              <h5 className="mb-3">Precio</h5>
               <div>
                 {/* range */}
                 <div id="priceRange" className="mb-3" />
-                <small className="text-muted">Price:</small>{" "}
+                <small className="text-muted">Precio:</small>{" "}
                 <span id="priceRange-value" className="small" />
               </div>
             </div>
             {/* rating */}
             <div className="py-4">
-              <h5 className="mb-3">Rating</h5>
+              <h5 className="mb-3">Calificación</h5>
               <div>
                 {/* form check */}
                 <div className="form-check mb-2">
@@ -322,10 +323,10 @@ color="#0aad0a"
               {/* Banner Design */}
               {/* Banner Content */}
               <div className="position-absolute p-5 py-8">
-                <h3 className="mb-0">Fresh Fruits </h3>
-                <p>Get Upto 25% Off</p>
+                <h3 className="mb-0">Antojo Casero </h3>
+                <p>Sabores de casa</p>
                 <Link to="#" className="btn btn-dark">
-                  Shop Now
+                  Ver productos
                   <i className="feather-icon icon-arrow-right ms-1" />
                 </Link>
               </div>
@@ -348,7 +349,7 @@ color="#0aad0a"
           <div className="card mb-4 bg-light border-0">
             {/* card body */}
             <div className=" card-body p-9">
-              <h1 className="mb-0">Snacks &amp; Munchies</h1>
+              <h1 className="mb-0">Productos de Antojo Casero</h1>
             </div>
           </div>
           {/* list icon */}
@@ -356,7 +357,7 @@ color="#0aad0a"
             <div>
               <p className="mb-3 mb-md-0">
                 {" "}
-                <span className="text-dark">24 </span> Products found{" "}
+                <span className="text-dark">24 </span> productos encontrados{" "}
               </p>
             </div>
             {/* icon */}
@@ -388,9 +389,9 @@ color="#0aad0a"
                   className="form-select"
                   aria-label="Default select example"
                 >
-                  <option selected>Sort by: Featured</option>
-                  <option value="Low to High">Price: Low to High</option>
-                  <option value="High to Low"> Price: High to Low</option>
+                  <option selected>Ordenar por: Destacados</option>
+                  <option value="Low to High">Precio: Low to High</option>
+                  <option value="High to Low"> Precio: High to Low</option>
                   <option value="Release Date"> Release Date</option>
                   <option value="Avg. Rating"> Avg. Rating</option>
                 </select>
@@ -407,7 +408,7 @@ color="#0aad0a"
                   {/* badge */}
                   <div className="text-center position-relative ">
                     <div className=" position-absolute top-0 start-0">
-                      <span className="badge bg-danger">Sale</span>
+                      <span className="badge bg-danger">Oferta</span>
                     </div>
                     <Link to="#!">
                       {/* img */}
@@ -429,7 +430,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -437,7 +438,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -446,7 +447,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -455,12 +456,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Salado</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Haldiram's Sev Bhujia
+                      Empanada casera de carne
                     </Link>
                   </h2>
                   <div>
@@ -478,9 +479,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">{formatGuarani(18000)}</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        {formatGuarani(24000)}
                       </span>
                     </div>
                     {/* btn */}
@@ -538,7 +539,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -546,7 +547,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -555,7 +556,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -564,12 +565,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>Postres</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      NutriChoice Digestive{" "}
+                      Sándwich de pollo{" "}
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -587,7 +588,7 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">{formatGuarani(24000)}</span>
                     </div>
                     {/* btn */}
                     <div>
@@ -640,7 +641,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -648,7 +649,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -657,7 +658,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -666,12 +667,12 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Bakery &amp; Biscuits</small>
+                      <small>Postres</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
                     <Link to="#!" className="text-inherit text-decoration-none">
-                      Cadbury 5 Star Chocolate
+                      Bizcochuelo de chocolate Chocolate
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -749,7 +750,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -757,7 +758,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -766,7 +767,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -775,7 +776,7 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Salado</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -854,7 +855,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -862,7 +863,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -871,7 +872,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -902,9 +903,9 @@ color="#0aad0a"
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">{formatGuarani(13000)}</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        {formatGuarani(18000)}
                       </span>
                     </div>
                     {/* btn */}
@@ -940,7 +941,7 @@ color="#0aad0a"
                   {/* badge */}
                   <div className="text-center position-relative ">
                     <div className=" position-absolute top-0">
-                      <span className="badge bg-danger">Sale</span>
+                      <span className="badge bg-danger">Oferta</span>
                     </div>
                     <Link to="#!">
                       {/* img */}
@@ -962,7 +963,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -970,7 +971,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -979,7 +980,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -1011,9 +1012,9 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">{formatGuarani(18000)}</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                        {formatGuarani(24000)}
                       </span>
                     </div>
                     {/* btn */}
@@ -1067,7 +1068,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -1075,7 +1076,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -1084,7 +1085,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -1116,7 +1117,7 @@ color="#0aad0a"
                   {/* price */}
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">{formatGuarani(24000)}</span>
                     </div>
                     {/* btn */}
                     <div>
@@ -1169,7 +1170,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -1177,7 +1178,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -1186,7 +1187,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -1274,7 +1275,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -1282,7 +1283,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -1291,7 +1292,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -1300,7 +1301,7 @@ color="#0aad0a"
                   {/* heading */}
                   <div className="text-small mb-1">
                     <Link to="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Salado</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -1379,7 +1380,7 @@ color="#0aad0a"
                           className="bi bi-eye"
                           data-bs-toggle="tooltip"
                           data-bs-html="true"
-                          title="Quick View"
+                          title="Vista rápida"
                         />
                       </Link>
                       <Link
@@ -1387,7 +1388,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Wishlist"
+                        title="Favoritos"
                       >
                         <i className="bi bi-heart" />
                       </Link>
@@ -1396,7 +1397,7 @@ color="#0aad0a"
                         className="btn-action"
                         data-bs-toggle="tooltip"
                         data-bs-html="true"
-                        title="Compare"
+                        title="Comparar"
                       >
                         <i className="bi bi-arrow-left-right" />
                       </Link>
@@ -1427,9 +1428,9 @@ color="#0aad0a"
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">{formatGuarani(13000)}</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                        {formatGuarani(18000)}
                       </span>
                     </div>
                     {/* btn */}
@@ -1516,61 +1517,43 @@ color="#0aad0a"
 
 const dropdownData = [
   {
-    title: "Dairy, Bread & Eggs",
+    title: "Dulce",
     items: [
-      "Milk",
-      "Milk Drinks",
-      "Curd & Yogurt",
-      "Eggs",
-      "Bread",
-      "Buns & Bakery",
-      "Butter & More",
-      "Cheese",
-      "Paneer & Tofu",
-      "Cream & Whitener",
-      "Condensed Milk",
-      "Vegan Drinks",
+      "Azúcar",
     ],
   },
   {
-    title: "Snacks & Munchies",
+    title: "Salado",
     items: [
-      "Chips & Crisps",
-      "Nachos",
-      "Popcorn",
-      "Bhujia & Mixtures",
-      "Namkeen Snacks",
-      "Healthy Snacks",
-      "Cakes & Rolls",
-      "Energy Bars",
-      "Papad & Fryums",
-      "Rusks & Wafers",
+      "Empanada casera de carne",
+      "Milanesa de carne",
+      "Milanesa de pollo",
+      "Sándwich de carne",
+      "Sándwich de pollo",
+      "Pan casero",
     ],
   },
   {
-    title: "Fruits & Vegetables",
+    title: "Bebidas",
     items: [
-      "Fresh Vegetables",
-      "Herbs & Seasonings",
-      "Fresh Fruits",
-      "Organic Fruits & Vegetables",
-      "Cuts & Sprouts",
-      "Exotic Fruits & Veggies",
-      "Flower Bouquets, Bunches",
+      "Jugo natural de pomelo",
+      "Jugo natural de naranja",
+      "Jugo natural de limón",
+      "Jugo natural surtido",
     ],
   },
   {
-    title: "Cold Drinks & Juices" ,
+    title: "Postres",
     items: [
-      "Soft Drinks",
-      "Fruit Juices",
-      "Coldpress",
-      "Energy Drinks",
-      "Water & Ice Cubes",
-      "Soda & Mixers",
-      "Concentrates & Syrups",
-      "Detox & Energy Drinks",
-      "Juice Collection",
+      "Bizcochuelo de naranja",
+      "Bizcochuelo de mandarina",
+      "Bizcochuelo de chocolate",
+    ],
+  },
+  {
+    title: "Saludable",
+    items: [
+      "Edulcorante",
     ],
   },
 ];

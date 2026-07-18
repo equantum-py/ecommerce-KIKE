@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
+import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import productimage1 from '../../images/product-img-1.jpg'
 import productimage2 from '../../images/product-img-2.jpg'
@@ -7,7 +8,7 @@ import productimage4 from '../../images/product-img-4.jpg'
 import { MagnifyingGlass } from 'react-loader-spinner'
 import ScrollToTop from "../ScrollToTop";
 
-const ShopCheckOut = () => {
+const ShopFinalizar compra = () => {
    // loading
    const [loaderStatus, setLoaderStatus] = useState(true);
    useEffect(() => {
@@ -49,10 +50,10 @@ const ShopCheckOut = () => {
                 <div>
                   <div className="mb-8">
                     {/* text */}
-                    <h1 className="fw-bold mb-0">Checkout</h1>
+                    <h1 className="fw-bold mb-0">Finalizar compra</h1>
                     <p className="mb-0">
-                      Already have an account? Click here to{" "}
-                      <Link to="/MyAccountSignIn">Sign in</Link>.
+                      ¿Ya tenés cuenta? Hacé clic aquí para{" "}
+                      <Link to="/MyAccountSignIn">Iniciar sesión</Link>.
                     </p>
                   </div>
                 </div>
@@ -80,7 +81,7 @@ const ShopCheckOut = () => {
                           aria-controls="flush-collapseOne"
                         >
                           <i className="feather-icon icon-map-pin me-2 text-muted" />
-                          Add delivery address
+                          Agregar dirección de entrega
                         </Link>
                         {/* btn */}
                         <Link
@@ -89,7 +90,7 @@ const ShopCheckOut = () => {
                           data-bs-toggle="modal"
                           data-bs-target="#addAddressModal"
                         >
-                          Add a new address{" "}
+                          Nueva dirección{" "}
                         </Link>
                         {/* collapse */}
                       </div>
@@ -128,7 +129,7 @@ const ShopCheckOut = () => {
                                   <abbr title="Phone">P: 402-776-1106</abbr>
                                 </address>
                                 <span className="text-danger">
-                                  Default address{" "}
+                                  Dirección predeterminada{" "}
                                 </span>
                               </div>
                             </div>
@@ -327,16 +328,16 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault1"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 {/* badge */}
                                 <div className="col-3 text-center">
                                   {" "}
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -371,9 +372,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -408,9 +409,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -445,11 +446,11 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 {/* badge */}
                                 <div className="col-3 text-center">
                                   {" "}
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -484,11 +485,11 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 {/* badge */}
                                 <div className="col-3 text-center">
                                   {" "}
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -528,14 +529,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault6"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -565,14 +566,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault7"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -607,9 +608,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -644,9 +645,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -681,9 +682,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -723,14 +724,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault11"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -760,14 +761,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault12"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -802,9 +803,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -839,9 +840,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -876,9 +877,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -918,14 +919,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault16"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -955,14 +956,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault17"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -997,9 +998,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1034,9 +1035,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1071,9 +1072,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1113,14 +1114,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault21"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1150,16 +1151,16 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault22"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 {/* badge */}
                                 <div className="col-3 text-center">
                                   {" "}
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1194,9 +1195,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1231,9 +1232,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1268,9 +1269,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1310,14 +1311,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault26"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1347,14 +1348,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault27"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1389,9 +1390,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1426,9 +1427,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1463,9 +1464,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1505,14 +1506,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault31"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1542,14 +1543,14 @@ const ShopCheckOut = () => {
                                       className="form-check-label"
                                       htmlFor="flexRadioDefault32"
                                     >
-                                      <span>Within 2 Hours</span>
+                                      <span>En menos de 2 horas</span>
                                     </label>
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1584,9 +1585,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$0.00</div>
+                                <div className="col-3 text-center">{formatGuarani(0)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-success">Free</span>
+                                  <span className="badge bg-success">Gratis</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1621,9 +1622,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1658,9 +1659,9 @@ const ShopCheckOut = () => {
                                   </div>
                                 </div>
                                 {/* price */}
-                                <div className="col-3 text-center">$3.99</div>
+                                <div className="col-3 text-center">{formatGuarani(15000)}</div>
                                 <div className="col-3 text-center">
-                                  <span className="badge bg-danger">Paid</span>
+                                  <span className="badge bg-danger">Pagado</span>
                                 </div>
                                 {/* col */}
                                 <div className="col-2 text-end">
@@ -1711,7 +1712,7 @@ const ShopCheckOut = () => {
                         aria-controls="flush-collapseThree"
                       >
                         <i className="feather-icon icon-shopping-bag me-2 text-muted" />
-                        Delivery instructions
+                        Instrucciones de entrega
                         {/* collapse */}{" "}
                       </Link>
                       <div
@@ -1724,13 +1725,13 @@ const ShopCheckOut = () => {
                             htmlFor="DeliveryInstructions"
                             className="form-label sr-only"
                           >
-                            Delivery instructions
+                            Instrucciones de entrega
                           </label>
                           <textarea
                             className="form-control"
                             id="DeliveryInstructions"
                             rows={3}
-                            placeholder="Write delivery instructions "
+                            placeholder="Write Instrucciones de entrega "
                             defaultValue={""}
                           />
                           <p className="form-text">
@@ -1773,7 +1774,7 @@ const ShopCheckOut = () => {
                         aria-controls="flush-collapseFour"
                       >
                         <i className="feather-icon icon-credit-card me-2 text-muted" />
-                        Payment Method
+                        Forma de pago
                         {/* collapse */}{" "}
                       </Link>
                       <div
@@ -1804,7 +1805,7 @@ const ShopCheckOut = () => {
                                     {/* title */}
                                     <h5 className="mb-1 h6">
                                       {" "}
-                                      Payment with Paypal
+                                      Pago con PayPal
                                     </h5>
                                     <p className="mb-0 small">
                                       You will be redirected to PayPal website
@@ -1835,7 +1836,7 @@ const ShopCheckOut = () => {
                                   <div>
                                     <h5 className="mb-1 h6">
                                       {" "}
-                                      Credit / Debit Card
+                                      Tarjeta de crédito / débito
                                     </h5>
                                     <p className="mb-0 small">
                                       Safe money transfer using your bank accou
@@ -1867,7 +1868,7 @@ const ShopCheckOut = () => {
                                       <input
                                         type="text"
                                         className="form-control"
-                                        placeholder="Enter your first name"
+                                        placeholder="Enter your Nombre"
                                       />
                                     </div>
                                   </div>
@@ -1956,7 +1957,7 @@ const ShopCheckOut = () => {
                                     {/* title */}
                                     <h5 className="mb-1 h6">
                                       {" "}
-                                      Cash on Delivery
+                                      Efectivo
                                     </h5>
                                     <p className="mb-0 small">
                                       Pay with cash when your order is
@@ -1979,7 +1980,7 @@ const ShopCheckOut = () => {
                                 Prev
                               </Link>
                               <Link to="#" className="btn btn-primary ms-2">
-                                Place Order
+                                Confirmar pedido
                               </Link>
                             </div>
                           </div>
@@ -1992,7 +1993,7 @@ const ShopCheckOut = () => {
                   <div className="mt-4 mt-lg-0">
                     <div className="card shadow-sm">
                       <h5 className="px-6 py-4 bg-transparent mb-0">
-                        Order Details
+                        Detalles del pedido
                       </h5>
                       <ul className="list-group list-group-flush">
                         {/* list group item */}
@@ -2015,7 +2016,7 @@ const ShopCheckOut = () => {
                               <span>1</span>
                             </div>
                             <div className="col-3 text-lg-end text-start text-md-end col-md-3">
-                              <span className="fw-bold">$5.00</span>
+                              <span className="fw-bold">{formatGuarani(5000)}</span>
                             </div>
                           </div>
                         </li>
@@ -2103,7 +2104,7 @@ const ShopCheckOut = () => {
                         {/* list group item */}
                         <li className="list-group-item px-4 py-3">
                           <div className="d-flex align-items-center justify-content-between   mb-2">
-                            <div>Item Subtotal</div>
+                            <div>Total de productos</div>
                             <div className="fw-bold">$70.00</div>
                           </div>
                           <div className="d-flex align-items-center justify-content-between  ">
@@ -2121,8 +2122,8 @@ const ShopCheckOut = () => {
                         {/* list group item */}
                         <li className="list-group-item px-4 py-3">
                           <div className="d-flex align-items-center justify-content-between fw-bold">
-                            <div>Subtotal</div>
-                            <div>$73.00</div>
+                            <div>Total</div>
+                            <div>{formatGuarani(73000)}</div>
                           </div>
                         </li>
                       </ul>
@@ -2148,7 +2149,7 @@ const ShopCheckOut = () => {
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="deleteModalLabel">
-                    Delete address
+                    Eliminar dirección
                   </h5>
                   <button
                     type="button"
@@ -2158,7 +2159,7 @@ const ShopCheckOut = () => {
                   />
                 </div>
                 <div className="modal-body">
-                  <h6>Are you sure you want to delete this address?</h6>
+                  <h6>¿Estás seguro de que quieres eliminar esta dirección?</h6>
                   <p className="mb-6">
                     Jitu Chauhan
                     <br />
@@ -2199,10 +2200,10 @@ const ShopCheckOut = () => {
                     {/* heading */}
                     <div>
                       <h5 className="h6 mb-1" id="addAddressModalLabel">
-                        New Shipping Address
+                        Nueva dirección de envío
                       </h5>
                       <p className="small mb-0">
-                        Add new shipping address for your order delivery.
+                        Add Nueva dirección de envío for your order delivery.
                       </p>
                     </div>
                     <div>
@@ -2222,8 +2223,8 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="First name"
-                        aria-label="First name"
+                        placeholder="Nombre"
+                        aria-label="Nombre"
                         required
                       />
                     </div>
@@ -2232,8 +2233,8 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Last name"
-                        aria-label="Last name"
+                        placeholder="Apellido"
+                        aria-label="Apellido"
                         required
                       />
                     </div>
@@ -2242,7 +2243,7 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Address Line 1"
+                        placeholder="Dirección 1"
                       />
                     </div>
                     <div className="col-12">
@@ -2250,7 +2251,7 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Address Line 2"
+                        placeholder="Dirección 2"
                       />
                     </div>
                     <div className="col-12">
@@ -2258,7 +2259,7 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="City"
+                        placeholder="Ciudad"
                       />
                     </div>
                     <div className="col-12">
@@ -2287,7 +2288,7 @@ const ShopCheckOut = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Zip Code"
+                        placeholder="Código postal"
                       />
                     </div>
                     <div className="col-12">
@@ -2325,7 +2326,7 @@ const ShopCheckOut = () => {
                         Cancel
                       </button>
                       <button className="btn btn-primary" type="button">
-                        Save Address
+                        Guardar dirección
                       </button>
                     </div>
                   </div>
@@ -2342,4 +2343,4 @@ const ShopCheckOut = () => {
   );
 };
 
-export default ShopCheckOut;
+export default ShopFinalizar compra;

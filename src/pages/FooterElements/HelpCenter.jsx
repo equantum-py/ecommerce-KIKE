@@ -3,62 +3,61 @@ import React from "react";
 const HelpCenter = () => {
   const topics = [
     {
-      title: "Placing Orders",
+      title: "Cómo hacer un pedido",
       faqs: [
         {
-          q: "How do I place an order?",
-          a: "Browse products, add them to your cart, and proceed to checkout.",
+          q: "¿Cómo hago un pedido?",
+          a: "Explorá los productos, agregálos al carrito y continuá al pago para finalizar tu pedido.",
         },
         {
-          q: "Can I cancel my order?",
-          a: "Yes, you can cancel orders from the 'My Orders' section before they are dispatched.",
+          q: "¿Puedo cancelar mi pedido?",
+          a: "Sí, podés cancelar pedidos desde la sección 'Mis pedidos' antes de que sean preparados.",
         },
       ],
     },
     {
-      title: "Payments & Refunds",
+      title: "Pagos y precios",
       faqs: [
         {
-          q: "What payment methods do you accept?",
-          a: "We accept UPI, credit/debit cards, wallets, and cash on delivery.",
+          q: "¿En qué moneda están los precios?",
+          a: "Todos los precios están expresados en guaraníes paraguayos (Gs.).",
         },
         {
-          q: "When will I receive my refund?",
-          a: "Refunds are processed within 5–7 working days depending on your bank.",
+          q: "¿Cómo coordino el pago?",
+          a: "Al confirmar tu pedido, nos comunicaremos para coordinar la forma de pago disponible.",
         },
       ],
     },
     {
-      title: "Delivery Issues",
+      title: "Entrega y seguimiento",
       faqs: [
         {
-          q: "What if my delivery is late?",
-          a: "Check your order status in 'My Orders'. If it's too delayed, contact support.",
+          q: "¿Dónde llegan los pedidos?",
+          a: "Actualmente coordinamos entregas dentro del área de cobertura. Consultá tu zona antes de pedir.",
         },
         {
-          q: "Items are missing from my order.",
-          a: "Please raise a complaint through the 'Contact Support' section with your order ID.",
+          q: "Falta un producto en mi pedido.",
+          a: "Por favor contactanos con el número de tu pedido para solucionar el problema a la brevedad.",
         },
       ],
     },
   ];
 
   return (
-    <div className="help-container"> 
+    <div className="help-container">
       <div className="row">
         <div className="col-md-12 mb-6">
           <div className="section-head text-center mt-8">
-            <h1 className="h3style" style={{ color: "green" }} data-title="Help Center">
-              Help Center
+            <h1 className="h3style" style={{ color: "green" }} data-title="Centro de ayuda">
+              Centro de ayuda
             </h1>
             <div className="wt-separator bg-primarys"></div>
             <div className="wt-separator2 bg-primarys"></div>
-            {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
           </div>
         </div>
       </div>
       <p className="help-subtitle">
-        Need assistance? Browse the topics below or contact our support team.
+        ¿Necesitás ayuda? Explorá los temas a continuación o contactanos directamente.
       </p>
 
       <div className="help-grid">
@@ -81,13 +80,12 @@ const HelpCenter = () => {
       </div>
 
       <div className="contact-support">
-        <h3>Still need help?</h3>
+        <h3>¿Todavía necesitás ayuda?</h3>
         <p>
-          If you didn’t find what you’re looking for, you can reach out to our
-          support team.
+          Si no encontraste lo que buscabas, podés contactarnos directamente.
         </p>
-        <a href="/contact" className="support-btn">
-          Contact Support
+        <a href="/Contact" className="support-btn">
+          Contactar soporte
         </a>
       </div>
     </div>

@@ -20,15 +20,15 @@ const MyAccountSignUp = () => {
                 {/* img */}
                 <img
                   src={signupimage}
-                  alt="freshcart"
+                  alt="Crear cuenta Antojo Casero"
                   className="img-fluid"
                 />
               </div>
               {/* col */}
               <div className="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
                 <div className="mb-lg-9 mb-5">
-                  <h1 className="mb-1 h2 fw-bold">Get Start Shopping</h1>
-                  <p>Welcome to FreshCart! Enter your email to get started.</p>
+                  <h1 className="mb-1 h2 fw-bold">Crear cuenta</h1>
+                  <p>¡Bienvenido a Antojo Casero! Completá tus datos para registrarte.</p>
                 </div>
                 {/* form */}
                 <form>
@@ -39,8 +39,8 @@ const MyAccountSignUp = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="First name"
-                        aria-label="First name"
+                        placeholder="Nombre"
+                        aria-label="Nombre"
                         required
                       />
                     </div>
@@ -49,8 +49,8 @@ const MyAccountSignUp = () => {
                       <input
                         type="text"
                         className="form-control"
-                        placeholder="Last name"
-                        aria-label="Last name"
+                        placeholder="Apellido"
+                        aria-label="Apellido"
                         required
                       />
                     </div>
@@ -60,7 +60,7 @@ const MyAccountSignUp = () => {
                         type="email"
                         className="form-control"
                         id="inputEmail4"
-                        placeholder="Email"
+                        placeholder="Correo electrónico"
                         required
                       />
                     </div>
@@ -70,7 +70,7 @@ const MyAccountSignUp = () => {
                         type="password"
                         className="form-control"
                         id="inputPassword4"
-                        placeholder="Password"
+                        placeholder="Contraseña"
                         required
                       />
                     </div>
@@ -78,20 +78,20 @@ const MyAccountSignUp = () => {
                     <div className="col-12 d-grid">
                       {" "}
                       <button type="submit" className="btn btn-primary">
-                        Register
+                        Crear cuenta
                       </button>
                       <span className="navbar-text">
-                          Already have an account?{" "}
+                          ¿Ya tenés cuenta?{" "}
 
-                          <Link to="/MyAccountSignIn">Sign in</Link>
+                          <Link to="/MyAccountSignIn">Iniciá sesión</Link>
                         </span>
                     </div>
                     {/* text */}
                     <p>
                       <small>
-                        By continuing, you agree to our{" "}
-                        <Link to="#!"> Terms of Service</Link> &amp;{" "}
-                        <Link to="#!">Privacy Policy</Link>
+                        Al registrarte, aceptás nuestros{" "}
+                        <Link to="#!"> Términos del servicio</Link> &{" "}
+                        <Link to="#!">Política de privacidad</Link>
                       </small>
                     </p>
                   </div>

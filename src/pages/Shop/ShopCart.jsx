@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import productimage1 from '../../images/product-img-1.jpg'
 import productimage2 from '../../images/product-img-2.jpg'
@@ -54,8 +55,8 @@ const ShopCart = () => {
                   {/* card */}
                   <div className="card py-1 border-0 mb-8">
                     <div>
-                      <h1 className="fw-bold">Shop Cart</h1>
-                      <p className="mb-0">Shopping in 382480</p>
+                      <h1 className="fw-bold">Carrito de compras</h1>
+                      <p className="mb-0"></p>
                     </div>
                   </div>
                 </div>
@@ -66,11 +67,7 @@ const ShopCart = () => {
                   <div className="py-3">
                     {/* alert */}
                     <div className="alert alert-danger p-2" role="alert">
-                      You’ve got FREE delivery. Start{" "}
-                      <Link to
-                      ="#!" className="alert-link">
-                        checkout now!
-                      </Link>
+                      Revisá tu pedido antes de continuar.
                     </div>
                     <ul className="list-group list-group-flush">
                       {/* list group */}
@@ -119,7 +116,7 @@ const ShopCart = () => {
                                     <line x1={14} y1={11} x2={14} y2={17} />
                                   </svg>
                                 </span>
-                                <span className="text-muted">Remove</span>
+                                <span className="text-muted">Eliminar</span>
                               </Link>
                             </div>
                           </div>
@@ -200,7 +197,7 @@ const ShopCart = () => {
                                     <line x1={14} y1={11} x2={14} y2={17} />
                                   </svg>
                                 </span>
-                                <span className="text-muted">Remove</span>
+                                <span className="text-muted">Eliminar</span>
                               </Link>
                             </div>
                           </div>
@@ -284,7 +281,7 @@ const ShopCart = () => {
                                     <line x1={14} y1={11} x2={14} y2={17} />
                                   </svg>
                                 </span>
-                                <span className="text-muted">Remove</span>
+                                <span className="text-muted">Eliminar</span>
                               </Link>
                             </div>
                           </div>
@@ -368,7 +365,7 @@ const ShopCart = () => {
                                     <line x1={14} y1={11} x2={14} y2={17} />
                                   </svg>
                                 </span>
-                                <span className="text-muted">Remove</span>
+                                <span className="text-muted">Eliminar</span>
                               </Link>
                             </div>
                           </div>
@@ -452,7 +449,7 @@ const ShopCart = () => {
                                     <line x1={14} y1={11} x2={14} y2={17} />
                                   </svg>
                                 </span>
-                                <span className="text-muted">Remove</span>
+                                <span className="text-muted">Eliminar</span>
                               </Link>
                             </div>
                           </div>
@@ -495,11 +492,11 @@ const ShopCart = () => {
                     <div className="d-flex justify-content-between mt-4">
                       <Link to
                       ="#!" className="btn btn-primary">
-                        Continue Shopping
+                        Seguir comprando
                       </Link>
                       <Link to
                       ="#!" className="btn btn-dark">
-                        Update Cart
+                        Actualizar carrito
                       </Link>
                     </div>
                   </div>
@@ -510,30 +507,30 @@ const ShopCart = () => {
                   <div className="mb-5 card mt-6">
                     <div className="card-body p-6">
                       {/* heading */}
-                      <h2 className="h5 mb-4">Summary</h2>
+                      <h2 className="h5 mb-4">Resumen del pedido</h2>
                       <div className="card mb-2">
                         {/* list group */}
                         <ul className="list-group list-group-flush">
                           {/* list group item */}
                           <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="me-auto">
-                              <div>Item Subtotal</div>
+                              <div>Subtotal de productos</div>
                             </div>
-                            <span>$70.00</span>
+                            <span>{formatGuarani(70000)}</span>
                           </li>
                           {/* list group item */}
                           <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="me-auto">
-                              <div>Service Fee</div>
+                              <div>Cargo por servicio</div>
                             </div>
-                            <span>$3.00</span>
+                            <span>{formatGuarani(3000)}</span>
                           </li>
                           {/* list group item */}
                           <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="me-auto">
-                              <div className="fw-bold">Subtotal</div>
+                              <div className="fw-bold">Total</div>
                             </div>
-                            <span className="fw-bold">$67.00</span>
+                            <span className="fw-bold">{formatGuarani(67000)}</span>
                           </li>
                         </ul>
                       </div>
@@ -543,22 +540,18 @@ const ShopCart = () => {
                           className="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
                           type="submit"
                         >
-                          Go to Checkout <span className="fw-bold">$67.00</span>
+                          Finalizar compra — <span className="fw-bold">{formatGuarani(67000)}</span>
                         </button>
                       </div>
                       {/* text */}
                       <p>
                         <small>
-                          By placing your order, you agree to be bound by the
-                          Freshcart <Link to
-                          ="#!">Terms of Service</Link>
-                          and <Link to
-                          ="#!">Privacy Policy.</Link>{" "}
+                          Al confirmar tu pedido, aceptás los Términos del servicio y la Política de privacidad.
                         </small>
                       </p>
                       {/* heading */}
                       <div className="mt-8">
-                        <h2 className="h5 mb-3">Add Promo or Gift Card</h2>
+                        <h2 className="h5 mb-3">Aplicar cupón o tarjeta de regalo</h2>
                         <form>
                           <div className="mb-2">
                             {/* input */}
@@ -572,7 +565,7 @@ const ShopCart = () => {
                               type="text"
                               className="form-control"
                               id="giftcard"
-                              placeholder="Promo or Gift Card"
+                              placeholder="Código de cupón"
                             />
                           </div>
                           {/* btn */}
@@ -581,12 +574,12 @@ const ShopCart = () => {
                               type="submit"
                               className="btn btn-outline-dark mb-1"
                             >
-                              Redeem
+                              Aplicar
                             </button>
                           </div>
                           <p className="text-muted mb-0">
                             {" "}
-                            <small>Terms &amp; Conditions apply</small>
+                            <small>Aplican términos y condiciones</small>
                           </p>
                         </form>
                       </div>

@@ -3,32 +3,32 @@ import React from "react";
 const Careers = () => {
   const jobs = [
     {
-      title: "Delivery Executive",
-      location: "Bhubaneswar, Odisha",
-      type: "Full Time",
+      title: "Asistente de preparación",
+      location: "Asunción, Paraguay",
+      type: "Tiempo completo",
       description:
-        "Timely delivery of groceries with excellent customer interaction. Must have a bike and a smartphone.",
+        "Apoyo en la preparación de productos caseros con los más altos estándares de higiene y calidad.",
     },
     {
-      title: "Warehouse Associate",
-      location: "Bhubaneswar, Odisha",
-      type: "Full Time",
+      title: "Atención al cliente",
+      location: "Asunción, Paraguay",
+      type: "Tiempo completo",
       description:
-        "Responsible for packaging, sorting, and maintaining inventory in the warehouse.",
+        "Atender consultas, pedidos y coordinar entregas de manera eficiente y amable.",
     },
     {
-      title: "Customer Support Executive",
-      location: "Remote",
-      type: "Part Time",
+      title: "Repartidor / Repartidora",
+      location: "Asunción, Paraguay",
+      type: "Tiempo parcial",
       description:
-        "Assist customers via chat or phone with order-related queries and issues.",
+        "Entrega oportuna de pedidos a domicilio en Asunción. Requiere movilidad propia.",
     },
     {
-      title: "Frontend Developer (React.js)",
-      location: "Remote",
-      type: "Internship",
+      title: "Community Manager",
+      location: "Remoto",
+      type: "Freelance",
       description:
-        "Help build and maintain our web interfaces for the grocery platform using React.js.",
+        "Gestión de redes sociales, contenido y comunicación de la marca Antojo Casero.",
     },
   ];
 
@@ -37,18 +37,17 @@ const Careers = () => {
       <div className="row">
         <div className="col-md-12 mb-6">
           <div className="section-head text-center mt-8">
-            <h1 className="h3style" style={{ color: "green" }} data-title="Join Our Grocery Team">
-              Join Our Grocery Team
+            <h1 className="h3style" style={{ color: "green" }} data-title="Sumate al equipo">
+              Sumate al equipo
             </h1>
             <div className="wt-separator bg-primarys"></div>
             <div className="wt-separator2 bg-primarys"></div>
-            {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
           </div>
         </div>
       </div>
       <p className="careers-intro">
-        We’re on a mission to deliver groceries fast, fresh, and affordably.
-        Want to be part of our growing family? Check out the open roles below.
+        Somos Antojo Casero y buscamos personas apasionadas por la cocina y el buen trato.
+        Si querés ser parte de nuestro equipo, mirá las posiciones disponibles.
       </p>
 
       <div className="job-list">
@@ -58,13 +57,13 @@ const Careers = () => {
               <div className="job-card">
                 <h3 className="job-title">{job.title}</h3>
                 <p className="job-info">
-                  <strong>Location:</strong> {job.location}
+                  <strong>Ubicación:</strong> {job.location}
                 </p>
                 <p className="job-info">
-                  <strong>Type:</strong> {job.type}
+                  <strong>Modalidad:</strong> {job.type}
                 </p>
                 <p className="job-desc">{job.description}</p>
-                <button className="apply-btn">Apply Now</button>
+                <button className="apply-btn">Postularme</button>
               </div>
             </div>
           ))}
