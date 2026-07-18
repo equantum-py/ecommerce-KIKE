@@ -398,16 +398,7 @@ const ShopListCol = () => {
                   {loaderStatus ? (
                     <div className="loader-container">
                       {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
-                      <MagnifyingGlass
-                        visible={true}
-                        height="100"
-                        width="100"
-                        ariaLabel="magnifying-glass-loading"
-                        wrapperStyle={{}}
-                        wrapperclassName="magnifying-glass-wrapper"
-                        glassColor="#c0efff"
-                        color="#0aad0a"
-                      />
+                      <p>Cargando...</p>
                     </div>
                   ) : (
                     <>

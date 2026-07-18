@@ -602,7 +602,7 @@ const Home = () => {
                           <div
                             className="py-10 px-8 rounded-3"
                             style={{
-                              background: `url(${grocerybanner}) no-repeat`,
+                              background: `url("/images/producto-predeterminado.svg") no-repeat`,
                               backgroundSize: "cover",
                               backgroundPosition: "center",
                             }}
@@ -628,7 +628,7 @@ const Home = () => {
                           <div
                             className="py-10 px-8 rounded-3"
                             style={{
-                              background: `url(${grocerybanner2}) no-repeat`,
+                              background: `url("/images/producto-predeterminado.svg") no-repeat`,
                               backgroundSize: "cover",
                               backgroundPosition: "center",
                             }}

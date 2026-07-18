@@ -21,11 +21,7 @@ const Footer = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <Link to="/">
-                      <img
-                        src={groceryshop}
-                        style={{ width: 300, padding: 20, marginLeft: "-30px" }}
-                        alt="logo"
-                      />
+                      <h2 className="mb-0 text-dark">Antojo Casero</h2>
                     </Link>
                   </div>
                   <p className="mb-30">
