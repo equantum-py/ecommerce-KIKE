@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import productimage1 from '../../images/product-img-1.jpg'
@@ -8,7 +8,7 @@ import productimage4 from '../../images/product-img-4.jpg'
 import { MagnifyingGlass } from 'react-loader-spinner'
 import ScrollToTop from "../ScrollToTop";
 
-const ShopFinalizar compra = () => {
+const ShopCheckOut = () => {
    // loading
    const [loaderStatus, setLoaderStatus] = useState(true);
    useEffect(() => {
@@ -2343,4 +2343,4 @@ const ShopFinalizar compra = () => {
   );
 };
 
-export default ShopFinalizar compra;
+export default ShopCheckOut;
