@@ -39,7 +39,7 @@ function Dropdown() {
     <div>
     {loaderStatus ? (
       <div className="loader-container">
-        {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+        {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
         <MagnifyingGlass
 visible={true}
 height="100"
@@ -48,7 +48,7 @@ ariaLabel="magnifying-glass-loading"
 wrapperStyle={{}}
 wrapperclassName="magnifying-glass-wrapper"
 glassColor="#c0efff"
-color="#0aad0a"
+color="#D96800"
 />
       </div>
     ) : (
@@ -117,11 +117,11 @@ color="#0aad0a"
                   className="form-check-input"
                   type="checkbox"
                   defaultValue
-                  id="eGrocery"
+                  id="antojoCasero"
                   defaultChecked
                 />
-                <label className="form-check-label" htmlFor="eGrocery">
-                  E-Grocery
+                <label className="form-check-label" htmlFor="antojoCasero">
+                  Antojo Casero
                 </label>
               </div>
               {/* form check */}
@@ -209,10 +209,10 @@ color="#0aad0a"
                   className="form-check-input"
                   type="checkbox"
                   defaultValue
-                  id="onlineGrocery"
+                  id="onlinantojoCasero"
                 />
-                <label className="form-check-label" htmlFor="onlineGrocery">
-                  Online Grocery
+                <label className="form-check-label" htmlFor="onlinantojoCasero">
+                  Productos caseros
                 </label>
               </div>
             </div>
@@ -325,7 +325,7 @@ color="#0aad0a"
                 <h3 className="mb-0">Fresh Fruits </h3>
                 <p>Get Upto 25% Off</p>
                 <Link to="#" className="btn btn-dark">
-                  Shop Now
+                  Ver productos
                   <i className="feather-icon icon-arrow-right ms-1" />
                 </Link>
               </div>
@@ -413,7 +413,7 @@ color="#0aad0a"
                       {/* img */}
                       <img
                         src={product1}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -522,7 +522,7 @@ color="#0aad0a"
                       {/* img */}
                       <img
                         src={product2}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -624,7 +624,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product3}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -733,7 +733,7 @@ color="#0aad0a"
                       {/* img */}
                       <img
                         src={product4}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -838,7 +838,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product5}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -946,7 +946,7 @@ color="#0aad0a"
                       {/* img */}
                       <img
                         src={product6}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -1051,7 +1051,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product7}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -1153,7 +1153,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product8}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -1258,7 +1258,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product9}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -1363,7 +1363,7 @@ color="#0aad0a"
                     <Link to="#!">
                       <img
                         src={product10}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>

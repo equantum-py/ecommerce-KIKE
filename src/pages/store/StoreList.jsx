@@ -34,7 +34,7 @@ const StoreList = () => {
        <div>
       {loaderStatus ? (
         <div className="loader-container">
-          {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+          {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
           <MagnifyingGlass
   visible={true}
   height="100"
@@ -43,7 +43,7 @@ const StoreList = () => {
   wrapperStyle={{}}
   wrapperclassName="magnifying-glass-wrapper"
   glassColor="#c0efff"
-  color="#0aad0a"
+  color="#D96800"
   />
         </div>
       ) : (
@@ -143,7 +143,7 @@ const StoreList = () => {
                   <div className="ms-6">
                     <h5 className="mb-1">
                       <a href="#!" className="text-inherit">
-                        E-Grocery Super Market
+                        Antojo Casero
                       </a>
                     </h5>
                     <div className="small text-muted">
@@ -555,7 +555,7 @@ const StoreList = () => {
                   <div className="ms-6">
                     <h5 className="mb-1">
                       <a href="#!" className="text-inherit">
-                        Online Grocery Mart
+                        Antojo Casero
                       </a>
                     </h5>
                     <div className="small text-muted">
@@ -917,7 +917,7 @@ const StoreList = () => {
                   <div className="ms-6">
                     <h5 className="mb-1">
                       <a href="#!" className="text-inherit">
-                        Online Grocery Mart
+                        Antojo Casero
                       </a>
                     </h5>
                     <div className="small text-muted">

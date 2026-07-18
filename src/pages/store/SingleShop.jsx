@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 
-import Grocerylogo from "../../images/Grocerylogo.png";
 import product1 from "../../images/category-baby-care.jpg";
 import product2 from "../../images/category-atta-rice-dal.jpg";
 import product3 from "../../images/category-bakery-biscuits.jpg";
@@ -16,6 +15,7 @@ import product10 from "../../images/category-tea-coffee-drinks.jpg";
 import graphics from "../../images/store-graphics.svg";
 import { MagnifyingGlass } from "react-loader-spinner";
 import ScrollToTop from "../ScrollToTop";
+const antojoLogo = "/images/antojo-casero-logo.svg";
 const SingleShop = () => {
   // loading
   const [loaderStatus, setLoaderStatus] = useState(true);
@@ -30,7 +30,7 @@ const SingleShop = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+            {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -39,7 +39,7 @@ const SingleShop = () => {
               wrapperStyle={{}}
               wrapperclassName="magnifying-glass-wrapper"
               glassColor="#c0efff"
-              color="#0aad0a"
+              color="#D96800"
             />
           </div>
         ) : (
@@ -68,7 +68,7 @@ const SingleShop = () => {
                             className="breadcrumb-item active"
                             aria-current="page"
                           >
-                            E-Grocery Super Market
+                            Antojo Casero
                           </li>
                         </ol>
                       </nav> */}
@@ -89,18 +89,18 @@ const SingleShop = () => {
                           {/* img */}
                           {/* img */}
                           <img
-                            src={Grocerylogo}
+                            src={antojoLogo}
                             style={{
                               width: 200,
                               marginBottom: 10,
                               marginLeft: "-15px",
                             }}
-                            alt="eCommerce HTML Template"
+                            alt="Antojo Casero"
                           />
                         </div>
                         {/* heading */}
                         <div className="mt-4">
-                          <h1 className="mb-1 h4">E-Grocery Super Market</h1>
+                          <h1 className="mb-1 h4">Antojo Casero</h1>
                           <div className="small text-muted">
                             <span>Everyday store prices </span>
                           </div>
@@ -323,7 +323,7 @@ const SingleShop = () => {
                         <div className="align-self-center p-8">
                           <div className="mb-3">
                             <h5 className="mb-0 fw-bold">
-                              E-Grocery Super Market
+                              Antojo Casero
                             </h5>
                             <p className="mb-0 text-muted">
                               Whatever the occasion, we've got you covered.
@@ -334,7 +334,7 @@ const SingleShop = () => {
                               type="email"
                               className="form-control"
                               id="exampleFormControlInput1"
-                              placeholder="Search E-Grocery Super Market"
+                              placeholder="Search Antojo Casero"
                             />
                             <span className="position-absolute end-0 top-0 mt-2 me-3">
                               <svg
@@ -415,7 +415,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product1}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -530,7 +530,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product2}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -641,7 +641,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product3}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -755,7 +755,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product4}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -869,7 +869,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product5}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -985,7 +985,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product6}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1100,7 +1100,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product7}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1211,7 +1211,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product8}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1323,7 +1323,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product9}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1437,7 +1437,7 @@ const SingleShop = () => {
                                   {/* img */}
                                   <img
                                     src={product10}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>

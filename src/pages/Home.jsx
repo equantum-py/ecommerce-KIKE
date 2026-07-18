@@ -209,7 +209,7 @@ const Home = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+            {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -218,7 +218,7 @@ const Home = () => {
               wrapperStyle={{}}
               wrapperclassName="magnifying-glass-wrapper"
               glassColor="#c0efff"
-              color="#0aad0a"
+              color="#D96800"
             />
           </div>
         ) : (
@@ -251,17 +251,16 @@ const Home = () => {
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Opening Sale Discount 50%
+                              Hecho en casa, con amor
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
-                              SuperMarket Daily <br /> Fresh Grocery
+                              Sabores caseros para disfrutar <br /> en cualquier momento
                             </h2>
                             <p className="lead">
-                              Introduced a new model for online grocery shopping
-                              and convenient home delivery.
+                              Productos preparados con dedicación, ingredientes seleccionados y ese sabor que recuerda a casa.
                             </p>
                             <Link to="#!" className="btn btn-dark mt-3">
-                              Shop Now{" "}
+                              Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
                           </div>
@@ -278,7 +277,7 @@ const Home = () => {
                         >
                           <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
                             <span className="badge text-bg-warning">
-                              Free Shipping - orders over $100
+                              Especialidades artesanales
                             </span>
                             <h2 className="text-dark display-5 fw-bold mt-4">
                               Free Shipping on <br /> orders over{" "}
@@ -289,7 +288,7 @@ const Home = () => {
                               promotions and discounts are applied.
                             </p>
                             <Link to="#!" className="btn btn-dark mt-3">
-                              Shop Now{" "}
+                              Ver productos{" "}
                               <i className="feather-icon icon-arrow-right ms-1" />
                             </Link>
                           </div>
@@ -344,7 +343,7 @@ const Home = () => {
                             {/* text */}
                             <div className="ms-lg-4">
                               <h1 className="fs-2 mb-1">
-                                Welcome to FreshCart
+                                Los favoritos de la casa
                               </h1>
                               <span>
                                 Download the app get free food &amp;{" "}
@@ -356,7 +355,7 @@ const Home = () => {
                           <div className="mt-3 mt-lg-0">
                             {/* btn */}
                             <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
+                              Conocé nuestras especialidades
                             </Link>
                           </div>
                         </div>
@@ -398,7 +397,7 @@ const Home = () => {
                                 </span>
                               </div>
                               <Link to="#" className="btn btn-dark">
-                                Shop Now
+                                Ver productos
                               </Link>
                             </div>
                             {/* Banner Content */}
@@ -429,7 +428,7 @@ const Home = () => {
                                 the fruity way
                               </p>
                               <Link to="#" className="btn btn-dark mt-2">
-                                Shop Now
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -459,7 +458,7 @@ const Home = () => {
                                 summer today
                               </p>
                               <Link to="#" className="btn btn-dark">
-                                Shop Now
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -808,7 +807,7 @@ const Home = () => {
                                 Off
                               </p>
                               <Link to="#!" className="btn btn-dark">
-                                Shop Now
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -835,7 +834,7 @@ const Home = () => {
                                 Off
                               </p>
                               <Link to="#!" className="btn btn-dark">
-                                Shop Now
+                                Ver productos
                               </Link>
                             </div>
                           </div>
@@ -867,7 +866,7 @@ const Home = () => {
                         <div className="mb-6">
                           <div className="mb-7">
                             {/* heading */}
-                            <h1>Get the FreshCart app</h1>
+                            <h1>Get the Antojo Casero app</h1>
                             <h5 className="mb-0">
                               We will send you a link, open it on your phone to
                               download the app.
@@ -1001,7 +1000,7 @@ const Home = () => {
                             Get the best deal before close.
                           </p>
                           <Link to="#!" className="btn btn-primary">
-                            Shop Now{" "}
+                            Ver productos{" "}
                             <i className="feather-icon icon-arrow-right ms-1" />
                           </Link>
                         </div>
@@ -1019,7 +1018,7 @@ const Home = () => {
                                     <Link to="#!">
                                       <img
                                         src={product11}
-                                        alt="Grocery Ecommerce Template"
+                                        alt="Producto artesanal de Antojo Casero"
                                         className="mb-3 img-fluid"
                                       />
                                     </Link>
@@ -1133,7 +1132,7 @@ const Home = () => {
                                     <Link to="#!">
                                       <img
                                         src={product12}
-                                        alt="Grocery Ecommerce Template"
+                                        alt="Producto artesanal de Antojo Casero"
                                         className="mb-3 img-fluid"
                                       />
                                     </Link>
@@ -1247,7 +1246,7 @@ const Home = () => {
                                     <Link to="#!">
                                       <img
                                         src={product13}
-                                        alt="Grocery Ecommerce Template"
+                                        alt="Producto artesanal de Antojo Casero"
                                         className="mb-3 img-fluid"
                                       />
                                     </Link>
@@ -1361,7 +1360,7 @@ const Home = () => {
                                     <Link to="#!">
                                       <img
                                         src={product13}
-                                        alt="Grocery Ecommerce Template"
+                                        alt="Producto artesanal de Antojo Casero"
                                         className="mb-3 img-fluid"
                                       />
                                     </Link>
@@ -1560,7 +1559,7 @@ const Home = () => {
                               <h3 className="h5 mb-3">10 minute grocery now</h3>
                               <p>
                                 Get your order delivered to your doorstep at the
-                                earliest from FreshCart pickup
+                                earliest from Antojo Casero pickup
                                 <p> stores near you.</p>
                               </p>
                             </div>
@@ -1583,7 +1582,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product6} alt="Grocery Ecommerce Template" className="mb-3 style={{paddingLeft:'40px'}} " />
+            <img src={product6} alt="Producto artesanal de Antojo Casero" className="mb-3 style={{paddingLeft:'40px'}} " />
             <div>Dairy, Bread &amp; Eggs</div>
           </div>
         </div>
@@ -1595,7 +1594,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product9} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src={product9} alt="Producto artesanal de Antojo Casero" className="mb-3"style={{paddingLeft:'40px'}} />
             <div>Snack &amp; Munchies</div>
           </div>
         </div>
@@ -1606,7 +1605,7 @@ const Home = () => {
        <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product3} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src={product3} alt="Producto artesanal de Antojo Casero" className="mb-3"style={{paddingLeft:'40px'}} />
             <div>Bakery &amp; Biscuits</div>
           </div>
         </div>
@@ -1617,7 +1616,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product7} alt="Grocery Ecommerce Template " className="mb-3 " style={{paddingLeft:'40px'}} />
+            <img src={product7} alt="Producto artesanal de Antojo Casero " className="mb-3 " style={{paddingLeft:'40px'}} />
             <div>Instant Food</div>
           </div>
         </div>
@@ -1628,7 +1627,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product10} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src={product10} alt="Producto artesanal de Antojo Casero" className="mb-3"style={{paddingLeft:'40px'}} />
             <div>Tea, Coffee &amp; Drinks</div>
           </div>
         </div>
@@ -1639,7 +1638,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product2} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src={product2} alt="Producto artesanal de Antojo Casero" className="mb-3" style={{paddingLeft:'40px'}}/>
             <div>Atta, Rice &amp; Dal</div>
           </div>
         </div>
@@ -1650,7 +1649,7 @@ const Home = () => {
        <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product1} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src={product1} alt="Producto artesanal de Antojo Casero" className="mb-3" style={{paddingLeft:'40px'}}/>
             <div>Baby Care</div>
           </div>
         </div>
@@ -1661,7 +1660,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product4} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src={product4} alt="Producto artesanal de Antojo Casero" className="mb-3" style={{paddingLeft:'40px'}}/>
             <div>Chicken, Meat &amp; Fish</div>
           </div>
         </div>
@@ -1672,7 +1671,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product5} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src={product5} alt="Producto artesanal de Antojo Casero" className="mb-3" style={{paddingLeft:'40px'}}/>
             <div>Cleaning Essentials</div>
           </div>
         </div>
@@ -1683,7 +1682,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product8} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src={product8} alt="Producto artesanal de Antojo Casero" className="mb-3" style={{paddingLeft:'40px'}}/>
             <div>Pet Care</div>
           </div>
         </div>

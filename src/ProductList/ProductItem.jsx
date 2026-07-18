@@ -53,7 +53,7 @@ const ProductItem = () => {
                       {" "}
                       <img
                         src={product1}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid "
                       />
                     </Link>
@@ -156,7 +156,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product2}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -254,7 +254,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product3}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -355,7 +355,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product4}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -459,7 +459,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product5}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -563,7 +563,7 @@ const ProductItem = () => {
                       {" "}
                       <img
                         src={product6}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -664,7 +664,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product7}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -762,7 +762,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product8}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -863,7 +863,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product9}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>
@@ -964,7 +964,7 @@ const ProductItem = () => {
                     <Link href="#!">
                       <img
                         src={product10}
-                        alt="Grocery Ecommerce Template"
+                        alt="Producto artesanal de Antojo Casero"
                         className="mb-3 img-fluid"
                       />
                     </Link>

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import groceryshop from "../images/Grocerylogo.png";
 import amazonpay from "../images/amazonpay.svg";
 import american from "../images/american-express.svg";
 import mastercard from "../images/mastercard.svg";
 import paypal from "../images/paypal.svg";
 import visa from "../images/visa.svg";
+const antojoLogo = "/images/antojo-casero-logo.svg";
 
 const Footer = () => {
   let date = new Date();
@@ -23,17 +23,15 @@ const Footer = () => {
                   <div className="footer-logo">
                     <Link to="/">
                       <img
-                        src={groceryshop}
+                        src={antojoLogo}
                         style={{ width: 300, padding: 20, marginLeft: "-30px" }}
-                        alt="logo"
+                        alt="Antojo Casero"
                       />
                     </Link>
                   </div>
+                  <h4>Antojo Casero</h4>
                   <p className="mb-30">
-                    We deliver more than your expectations and help you to grow
-                    your business exponentially by providing customized
-                    applications. So, don’t just think, get ready to convert
-                    your ideas into reality.
+                    Hecho en casa, con amor. Productos artesanales preparados con dedicación y sabor tradicional.
                   </p>
                 </div>
                 <div className="dimc-protect">
@@ -42,27 +40,27 @@ const Footer = () => {
                     <ul className="list-inline d-flex mb-0">
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={amazonpay} alt="footerfreshcart" />
+                          <img src={amazonpay} alt="Método de pago provisional" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={american} alt="footerfreshcart" />
+                          <img src={american} alt="Método de pago provisional" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={mastercard} alt="footerfreshcart" />
+                          <img src={mastercard} alt="Método de pago provisional" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={paypal} alt="footerfreshcart" />
+                          <img src={paypal} alt="Método de pago provisional" />
                         </Link>
                       </li>
                       <li className="list-inline-item">
                         <Link to="#!">
-                          <img src={visa} alt="footerfreshcart" />
+                          <img src={visa} alt="Método de pago provisional" />
                         </Link>
                       </li>
                     </ul>
@@ -309,14 +307,7 @@ const Footer = () => {
             <div className="container text-center">
               <div className="footer-copy">
                 <div className="copyright">
-                  © {year} All Rights Reserved By _
-                  
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                     @nigammishra
-                  </Link>
+                  © {year} Antojo Casero. Hecho en casa, con amor.
                 </div>
               </div>
             </div>

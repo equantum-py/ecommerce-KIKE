@@ -27,8 +27,8 @@ const MyAccountSignUp = () => {
               {/* col */}
               <div className="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
                 <div className="mb-lg-9 mb-5">
-                  <h1 className="mb-1 h2 fw-bold">Get Start Shopping</h1>
-                  <p>Welcome to FreshCart! Enter your email to get started.</p>
+                  <h1 className="mb-1 h2 fw-bold">Crear cuenta en Antojo Casero</h1>
+                  <p>Los favoritos de la casa! Enter your email to get started.</p>
                 </div>
                 {/* form */}
                 <form>

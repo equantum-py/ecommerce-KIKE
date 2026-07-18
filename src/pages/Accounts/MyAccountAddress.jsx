@@ -95,7 +95,7 @@ const MyAccountAddress = () => {
                       </li>
                       {/* nav item */}
                       <li className="nav-item">
-                        <Link className="nav-link " to="/Grocery-react/">
+                        <Link className="nav-link " to="/AntojoCasero/">
                           <i className="fas fa-sign-out-alt me-2" />
                           Log out
                         </Link>
@@ -107,7 +107,7 @@ const MyAccountAddress = () => {
                   <div>
                     {loaderStatus ? (
                       <div className="loader-container">
-                        {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+                        {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
                         <MagnifyingGlass
                           visible={true}
                           height="100"
@@ -116,7 +116,7 @@ const MyAccountAddress = () => {
                           wrapperStyle={{}}
                           wrapperclassName="magnifying-glass-wrapper"
                           glassColor="#c0efff"
-                          color="#0aad0a"
+                          color="#D96800"
                         />
                       </div>
                     ) : (
@@ -519,7 +519,7 @@ const MyAccountAddress = () => {
                 <ul className="nav flex-column nav-pills nav-pills-dark">
                   {/* nav item */}
                   <li className="nav-item">
-                    <a className="nav-link " href="/Grocery-react/">
+                    <a className="nav-link " href="/AntojoCasero/">
                       <i className="fas fa-sign-out-alt me-2" />
                       Log out
                     </a>

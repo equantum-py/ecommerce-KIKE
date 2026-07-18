@@ -27,7 +27,7 @@ const Blog = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+            {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -36,7 +36,7 @@ const Blog = () => {
               wrapperStyle={{}}
               wrapperclassName="magnifying-glass-wrapper"
               glassColor="#c0efff"
-              color="#0aad0a"
+              color="#D96800"
             />
           </div>
         ) : (
@@ -52,7 +52,7 @@ const Blog = () => {
                     <div className="row">
                       {/* logo */}
                       <div className="col-12">
-                        <h1 className="fw-bold">FreshCart Blog</h1>
+                        <h1 className="fw-bold">Antojo Casero Blog</h1>
                       </div>
                     </div>
                   </div>
