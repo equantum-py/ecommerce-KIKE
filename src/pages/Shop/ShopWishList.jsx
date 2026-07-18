@@ -108,8 +108,8 @@ const ShopWishList = () => {
                           <td className="align-middle">
                             <Link to="#">
                               <img
-                                src={productimage18}
-                                className="img-fluid icon-shape icon-xxl"
+                                src="/images/producto-predeterminado.svg"
+                                className="img-fluid icon-shape icon-xxl predetermined-img"
                                 alt="Producto Antojo Casero"
                               />
                             </Link>
@@ -166,8 +166,8 @@ const ShopWishList = () => {
                           <td className="align-middle">
                             <Link to="#">
                               <img
-                                src={productimage17}
-                                className="img-fluid icon-shape icon-xxl"
+                                src="/images/producto-predeterminado.svg"
+                                className="img-fluid icon-shape icon-xxl predetermined-img"
                                 alt="product"
                               />
                             </Link>
@@ -226,8 +226,8 @@ const ShopWishList = () => {
                           <td className="align-middle">
                             <Link to="#">
                               <img
-                                src={productimage16}
-                                className="img-fluid icon-shape icon-xxl"
+                                src="/images/producto-predeterminado.svg"
+                                className="img-fluid icon-shape icon-xxl predetermined-img"
                                 alt="product"
                               />
                             </Link>
@@ -284,8 +284,8 @@ const ShopWishList = () => {
                           <td className="align-middle">
                             <Link to="#">
                               <img
-                                src={productimage19}
-                                className="img-fluid icon-shape icon-xxl"
+                                src="/images/producto-predeterminado.svg"
+                                className="img-fluid icon-shape icon-xxl predetermined-img"
                                 alt="product"
                               />
                             </Link>
@@ -342,8 +342,8 @@ const ShopWishList = () => {
                           <td className="align-middle">
                             <Link to="#">
                               <img
-                                src={productimage15}
-                                className="img-fluid icon-shape icon-xxl"
+                                src="/images/producto-predeterminado.svg"
+                                className="img-fluid icon-shape icon-xxl predetermined-img"
                                 alt="product"
                               />
                             </Link>

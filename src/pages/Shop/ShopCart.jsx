@@ -77,9 +77,9 @@ const ShopCart = () => {
                           <div className="col-3 col-md-2">
                             {/* img */}{" "}
                             <img
-                              src={productimage1}
+                              src="/images/producto-predeterminado.svg"
                               alt="Ecommerce"
-                              className="img-fluid"
+                              className="img-fluid predetermined-img"
                             />
                           </div>
                           <div className="col-4 col-md-6">
@@ -158,9 +158,9 @@ const ShopCart = () => {
                           <div className="col-3 col-md-2">
                             {/* img */}{" "}
                             <img
-                              src={productimage2}
+                              src="/images/producto-predeterminado.svg"
                               alt="Ecommerce"
-                              className="img-fluid"
+                              className="img-fluid predetermined-img"
                             />
                           </div>
                           <div className="col-4 col-md-6">
@@ -242,9 +242,9 @@ const ShopCart = () => {
                           <div className="col-3 col-md-2">
                             {/* img */}{" "}
                             <img
-                              src={productimage3}
+                              src="/images/producto-predeterminado.svg"
                               alt="Ecommerce"
-                              className="img-fluid"
+                              className="img-fluid predetermined-img"
                             />
                           </div>
                           <div className="col-4 col-md-6">
@@ -326,9 +326,9 @@ const ShopCart = () => {
                           <div className="col-3 col-md-2">
                             {/* img */}{" "}
                             <img
-                              src={productimage4}
+                              src="/images/producto-predeterminado.svg"
                               alt="Ecommerce"
-                              className="img-fluid"
+                              className="img-fluid predetermined-img"
                             />
                           </div>
                           <div className="col-4 col-md-6">
@@ -410,9 +410,9 @@ const ShopCart = () => {
                           <div className="col-3 col-md-2">
                             {/* img */}{" "}
                             <img
-                              src={productimage5}
+                              src="/images/producto-predeterminado.svg"
                               alt="Ecommerce"
-                              className="img-fluid"
+                              className="img-fluid predetermined-img"
                             />
                           </div>
                           <div className="col-4 col-md-6">

@@ -16,30 +16,13 @@ import bakerybiscuits from "../images/bakery-biscuits.png";
 import snackmunchies from "../images/snack-munchies.png";
 import fruitsvegetables from "../images/fruits-vegetables.png";
 import dairybreadeggs from "../images/dairy-bread-eggs.png";
-import grocerybanner from "../images/grocery-banner.png";
-import grocerybanner2 from "../images/grocery-banner-2.jpg";
 import map from "../images/map.png";
 import iphone from "../images/iphone-2.png";
-import googleplay from "../images/googleplay-btn.svg";
-import appstore from "../images/appstore-btn.svg";
 import bannerdeal from "../images/banner-deal1.jpg";
-import product11 from "../images/product-img-11.jpg";
-import product12 from "../images/product-img-12.jpg";
-import product13 from "../images/product-img-13.jpg";
 import clock from "../images/clock.svg";
 import gift from "../images/gift.svg";
 import package1 from "../images/package.svg";
 import refresh from "../images/refresh-cw.svg";
-import product1 from "../images/category-baby-care.jpg";
-import product2 from "../images/category-atta-rice-dal.jpg";
-import product3 from "../images/category-bakery-biscuits.jpg";
-import product4 from "../images/category-chicken-meat-fish.jpg";
-import product5 from "../images/category-cleaning-essentials.jpg";
-import product6 from "../images/category-dairy-bread-eggs.jpg";
-import product7 from "../images/category-instant-food.jpg";
-import product8 from "../images/category-pet-care.jpg";
-import product9 from "../images/category-snack-munchies.jpg";
-import product10 from "../images/category-tea-coffee-drinks.jpg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import ProductItem from "../ProductList/ProductItem";
@@ -603,171 +586,6 @@ const Home = () => {
                           </div>
                         </Zoom>
                       </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={teacoffeedrinks}
-                                alt="tea-coffee-drinks"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                <Link to="#" className="text-inherit">
-                                  Dulce
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={colddrinksjuices}
-                                alt="cold-drinks-juices"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                <Link to="#" className="text-inherit">
-                                  Salado
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={chickenmeatfish}
-                                alt="chicken-meat-fish"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                <Link to="#" className="text-inherit">
-                                  Bebidas
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        {/* text */}
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={babycare}
-                                alt="baby-care"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                {" "}
-                                <Link to="#" className="text-inherit">
-                                  Postres
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={cleaningessentials}
-                                alt="cleaning-essentials"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* img */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                {" "}
-                                <Link to="#" className="text-inherit">
-                                  Saludable
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={petcare}
-                                alt="pet-care"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                {" "}
-                                <Link to="#" className="text-inherit">
-                                  Dulce
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
-                      {/* col */}
-                      <div className="col-lg-2 col-md-4 col-6 fade-zoom">
-                        <Zoom>
-                          <div className="text-center mb-10">
-                            {/* img */}
-                            <Link to="#">
-                              <img
-                                src={attaricedal}
-                                alt="atta-rice-dal"
-                                className="card-image rounded-circle"
-                              />
-                            </Link>
-                            {/* text */}
-                            <div className="mt-4">
-                              <h5 className="fs-6 mb-0">
-                                <Link to="#" className="text-inherit">
-                                  Atta, Rice &amp; Dal
-                                </Link>
-                              </h5>
-                            </div>
-                          </div>
-                        </Zoom>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -916,8 +734,8 @@ const Home = () => {
                                 <Link to="#!">
                                   {" "}
                                   <img
-                                    src={appstore}
-                                    alt="appstore"
+                                    src="/images/producto-predeterminado.svg"
+                                    alt="Antojo Casero App"
                                     style={{ width: 140 }}
                                   />
                                 </Link>
@@ -927,8 +745,8 @@ const Home = () => {
                                 <Link to="#!">
                                   {" "}
                                   <img
-                                    src={googleplay}
-                                    alt="googleplay"
+                                    src="/images/producto-predeterminado.svg"
+                                    alt="Antojo Casero Play"
                                     style={{ width: 140 }}
                                   />
                                 </Link>
@@ -1005,9 +823,9 @@ const Home = () => {
                                     {" "}
                                     <Link to="#!">
                                       <img
-                                        src={product11}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                     <div className="card-product-action">
@@ -1119,9 +937,9 @@ const Home = () => {
                                     {" "}
                                     <Link to="#!">
                                       <img
-                                        src={product12}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                     <div className="card-product-action">
@@ -1233,9 +1051,9 @@ const Home = () => {
                                     {" "}
                                     <Link to="#!">
                                       <img
-                                        src={product13}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                     <div className="card-product-action">
@@ -1347,9 +1165,9 @@ const Home = () => {
                                     {" "}
                                     <Link to="#!">
                                       <img
-                                        src={product13}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                     <div className="card-product-action">
@@ -1477,7 +1295,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="icon-content">
-                              <h3 className="h5 mb-3">Easy Returns</h3>
+                              <h3 className="h5 mb-3">Pedidos fáciles</h3>
                               <p>
                                 Not satisfied with a product? Return it at the
                                 doorstep &amp; get a refund within hours. No
@@ -1499,7 +1317,7 @@ const Home = () => {
                               </div>
                             </div>
                             <div className="icon-content">
-                              <h3 className="h5 mb-3">Wide Assortment</h3>
+                              <h3 className="h5 mb-3">Ingredientes seleccionados</h3>
                               <p>
                                 Choose from 5000+ products across food, personal
                                 Dulce, Salado, Bebidas, Postres y Saludable
@@ -1521,7 +1339,7 @@ const Home = () => {
                             </div>
                             <div className="icon-content">
                               <h3 className="h5 mb-3">
-                                Best Prices &amp; Offers
+                                Sabor que recuerda a casa
                               </h3>
                               <p>
                                 Cheaper prices than your local supermarket,
@@ -1544,7 +1362,7 @@ const Home = () => {
                             </div>
                             <div className="icon-content">
                               {/* <h4 className="wt-tilte">Reports</h4> */}
-                              <h3 className="h5 mb-3">10 minute grocery now</h3>
+                              <h3 className="h5 mb-3">Preparación casera</h3>
                               <p>
                                 Get your order delivered to your doorstep at the
                                 recogida en Antojo Casero
@@ -1570,7 +1388,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product6} alt="Grocery Ecommerce Template" className="mb-3 style={{paddingLeft:'40px'}} " />
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 style={{paddingLeft:'40px'}}  predetermined-img" />
             <div>Dulce</div>
           </div>
         </div>
@@ -1582,7 +1400,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product9} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img"style={{paddingLeft:'40px'}} />
             <div>Snack &amp; Munchies</div>
           </div>
         </div>
@@ -1593,7 +1411,7 @@ const Home = () => {
        <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product3} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img"style={{paddingLeft:'40px'}} />
             <div>Postres</div>
           </div>
         </div>
@@ -1604,7 +1422,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product7} alt="Grocery Ecommerce Template " className="mb-3 " style={{paddingLeft:'40px'}} />
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template " className="mb-3  predetermined-img" style={{paddingLeft:'40px'}} />
             <div>Instant Food</div>
           </div>
         </div>
@@ -1615,7 +1433,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product10} alt="Grocery Ecommerce Template" className="mb-3"style={{paddingLeft:'40px'}} />
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img"style={{paddingLeft:'40px'}} />
             <div>Tea, Coffee &amp; Drinks</div>
           </div>
         </div>
@@ -1626,7 +1444,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product2} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img" style={{paddingLeft:'40px'}}/>
             <div>Atta, Rice &amp; Dal</div>
           </div>
         </div>
@@ -1637,7 +1455,7 @@ const Home = () => {
        <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product1} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img" style={{paddingLeft:'40px'}}/>
             <div>Baby Care</div>
           </div>
         </div>
@@ -1648,7 +1466,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product4} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img" style={{paddingLeft:'40px'}}/>
             <div>Chicken, Meat &amp; Fish</div>
           </div>
         </div>
@@ -1659,7 +1477,7 @@ const Home = () => {
     <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product5} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img" style={{paddingLeft:'40px'}}/>
             <div>Cleaning Essentials</div>
           </div>
         </div>
@@ -1670,7 +1488,7 @@ const Home = () => {
       <Link to="#" className="text-decoration-none text-inherit">
         <div className="card card-product mb-4">
           <div className="card-body text-center py-8">
-            <img src={product8} alt="Grocery Ecommerce Template" className="mb-3" style={{paddingLeft:'40px'}}/>
+            <img src="/images/producto-predeterminado.svg" alt="Grocery Ecommerce Template" className="mb-3 predetermined-img" style={{paddingLeft:'40px'}}/>
             <div>Pet Care</div>
           </div>
         </div>
@@ -1680,9 +1498,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product1}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid "
+                        className="img-fluid  predetermined-img"
                         alt="product"
                       />
                       <h6 class="card-title partner">
@@ -1693,9 +1511,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product2}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1706,9 +1524,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product3}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1719,9 +1537,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product4}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1732,9 +1550,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product5}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1745,9 +1563,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product6}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1758,9 +1576,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product7}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1771,9 +1589,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product8}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1784,9 +1602,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product9}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">
@@ -1797,9 +1615,9 @@ const Home = () => {
                   <div className="m-1">
                     <div className="partner-list">
                       <img
-                        src={product10}
+                        src="/images/producto-predeterminado.svg"
                         style={{ objectFit: "cover" }}
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                         alt="product"
                       />
                        <h6 class="card-title">

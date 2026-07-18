@@ -249,3 +249,14 @@ export const formatGuarani = (value) => {
 ---
 
 *Documentación generada automáticamente — Antojo Casero ecommerce v2*
+
+## Fase 3 — Limpieza visual e imágenes predeterminadas
+
+- Logo viejo eliminado.
+- Imágenes demo eliminadas de la interfaz.
+- Imagen predeterminada creada (/images/producto-predeterminado.svg) usando la paleta oficial.
+- Componentes actualizados.
+- Secciones eliminadas.
+- Imágenes reales pendientes.
+- Resultado del build: Limpio (verificado con git diff --check).
+

@@ -5,16 +5,6 @@ import formatGuarani from "../../utils/currency";
 import { Link } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-import product1 from "../../images/category-baby-care.jpg";
-import product2 from "../../images/category-atta-rice-dal.jpg";
-import product3 from "../../images/category-bakery-biscuits.jpg";
-import product4 from "../../images/category-chicken-meat-fish.jpg";
-import product5 from "../../images/category-cleaning-essentials.jpg";
-import product6 from "../../images/category-dairy-bread-eggs.jpg";
-import product7 from "../../images/category-instant-food.jpg";
-import product8 from "../../images/category-pet-care.jpg";
-import product9 from "../../images/category-snack-munchies.jpg";
-import product10 from "../../images/category-tea-coffee-drinks.jpg";
 import ScrollToTop from "../ScrollToTop";
 
 function Dropdown() {
@@ -413,9 +403,9 @@ color="#0aad0a"
                     <Link to="#!">
                       {/* img */}
                       <img
-                        src={product1}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -522,9 +512,9 @@ color="#0aad0a"
                     <Link to="#!">
                       {/* img */}
                       <img
-                        src={product2}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -624,9 +614,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product3}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -733,9 +723,9 @@ color="#0aad0a"
                     <Link to="#!">
                       {/* img */}
                       <img
-                        src={product4}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -838,9 +828,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product5}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -946,9 +936,9 @@ color="#0aad0a"
                     <Link to="#!">
                       {/* img */}
                       <img
-                        src={product6}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -1051,9 +1041,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product7}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -1153,9 +1143,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product8}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -1258,9 +1248,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product9}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}
@@ -1363,9 +1353,9 @@ color="#0aad0a"
                   <div className="text-center position-relative">
                     <Link to="#!">
                       <img
-                        src={product10}
+                        src="/images/producto-predeterminado.svg"
                         alt="Grocery Ecommerce Template"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid predetermined-img"
                       />
                     </Link>
                     {/* action btn */}

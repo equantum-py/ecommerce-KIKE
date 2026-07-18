@@ -2001,9 +2001,9 @@ const ShopCheckOut = () => {
                           <div className="row align-items-center">
                             <div className="col-2 col-md-2">
                               <img
-                                src={productimage1}
+                                src="/images/producto-predeterminado.svg"
                                 alt="Ecommerce"
-                                className="img-fluid"
+                                className="img-fluid predetermined-img"
                               />
                             </div>
                             <div className="col-5 col-md-5">
@@ -2025,9 +2025,9 @@ const ShopCheckOut = () => {
                           <div className="row align-items-center">
                             <div className="col-2 col-md-2">
                               <img
-                                src={productimage2}
+                                src="/images/producto-predeterminado.svg"
                                 alt="Ecommerce"
-                                className="img-fluid"
+                                className="img-fluid predetermined-img"
                               />
                             </div>
                             <div className="col-5 col-md-5">
@@ -2052,9 +2052,9 @@ const ShopCheckOut = () => {
                           <div className="row align-items-center">
                             <div className="col-2 col-md-2">
                               <img
-                                src={productimage3}
+                                src="/images/producto-predeterminado.svg"
                                 alt="Ecommerce"
-                                className="img-fluid"
+                                className="img-fluid predetermined-img"
                               />
                             </div>
                             <div className="col-5 col-md-5">
@@ -2079,9 +2079,9 @@ const ShopCheckOut = () => {
                           <div className="row align-items-center">
                             <div className="col-2 col-md-2">
                               <img
-                                src={productimage4}
+                                src="/images/producto-predeterminado.svg"
                                 alt="Ecommerce"
-                                className="img-fluid"
+                                className="img-fluid predetermined-img"
                               />
                             </div>
                             <div className="col-5 col-md-5">

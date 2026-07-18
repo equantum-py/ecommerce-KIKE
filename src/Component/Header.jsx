@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import formatGuarani from "../utils/currency";
-import Grocerylogo from "../images/Grocerylogo.png";
 import menubanner from "../images/menu-banner.jpg";
-import productimage1 from '../images/product-img-1.jpg'
-import productimage2 from '../images/product-img-2.jpg'
-import productimage3 from '../images/product-img-3.jpg'
-import productimage4 from '../images/product-img-4.jpg'
-import productimage5 from '../images/product-img-5.jpg'
+
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -228,11 +223,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img
-              src={Grocerylogo}
-              style={{ width: 200, marginBottom: 10, marginLeft: "-15px" }}
-              alt="eCommerce HTML Template"
-            />
+            <h2 className="mb-0 text-dark">Antojo Casero</h2>
           </Link>
           <input
             className="form-control responsivesearch "
@@ -775,9 +766,9 @@ const Header = () => {
                   <div className="row align-items-center">
                     <div className="col-2">
                       <img
-                        src={productimage1}
+                        src="/images/producto-predeterminado.svg"
                         alt="Ecommerce"
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                       />
                     </div>
                     <div className="col-5">
@@ -845,9 +836,9 @@ const Header = () => {
                   <div className="row row align-items-center">
                     <div className="col-2">
                       <img
-                        src={productimage2}
+                        src="/images/producto-predeterminado.svg"
                         alt="Ecommerce"
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                       />
                     </div>
                     <div className="col-5">
@@ -918,9 +909,9 @@ const Header = () => {
                   <div className="row row align-items-center">
                     <div className="col-2">
                       <img
-                        src={productimage3}
+                        src="/images/producto-predeterminado.svg"
                         alt="Ecommerce"
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                       />
                     </div>
                     <div className="col-5">
@@ -991,9 +982,9 @@ const Header = () => {
                   <div className="row row align-items-center">
                     <div className="col-2">
                       <img
-                        src={productimage4}
+                        src="/images/producto-predeterminado.svg"
                         alt="Ecommerce"
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                       />
                     </div>
                     <div className="col-5">
@@ -1064,9 +1055,9 @@ const Header = () => {
                   <div className="row row align-items-center">
                     <div className="col-2">
                       <img
-                        src={productimage5}
+                        src="/images/producto-predeterminado.svg"
                         alt="Ecommerce"
-                        className="img-fluid"
+                        className="img-fluid predetermined-img"
                       />
                     </div>
                     <div className="col-5">

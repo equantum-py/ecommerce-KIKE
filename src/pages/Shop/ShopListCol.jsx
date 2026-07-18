@@ -3,13 +3,7 @@ import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { MagnifyingGlass } from "react-loader-spinner";
 import assortment from "../../images/assortment-citrus-fruits.png";
-import productimg1 from "../../images/product-img-1.jpg";
-import productimg2 from "../../images/product-img-2.jpg";
-import productimg3 from "../../images/product-img-3.jpg";
-import productimg4 from "../../images/product-img-4.jpg";
-import productimg5 from "../../images/product-img-5.jpg";
-// import productimg6 from "../../images/product-img-6.jpg";
-import { MagnifyingGlass } from "react-loader-spinner";
+// import { MagnifyingGlass } from "react-loader-spinner";
 
 const dropdownData = [
   {
@@ -499,9 +493,9 @@ const ShopListCol = () => {
                                     <Link to="#!">
                                       {/* img */}
                                       <img
-                                        src={productimg1}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                   </div>
@@ -622,9 +616,9 @@ const ShopListCol = () => {
                                     <Link to="#!">
                                       {/* img */}
                                       <img
-                                        src={productimg2}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                   </div>
@@ -748,9 +742,9 @@ const ShopListCol = () => {
                                     <Link to="#!">
                                       {/* img */}
                                       <img
-                                        src={productimg3}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                   </div>
@@ -868,9 +862,9 @@ const ShopListCol = () => {
                                     <Link to="#!">
                                       {/* img */}
                                       <img
-                                        src={productimg4}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                   </div>
@@ -991,9 +985,9 @@ const ShopListCol = () => {
                                     <Link to="#!">
                                       {/* img */}
                                       <img
-                                        src={productimg5}
+                                        src="/images/producto-predeterminado.svg"
                                         alt="Grocery Ecommerce Template"
-                                        className="mb-3 img-fluid"
+                                        className="mb-3 img-fluid predetermined-img"
                                       />
                                     </Link>
                                   </div>

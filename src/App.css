@@ -30259,3 +30259,15 @@ background-color: #f3f6ff;
 .support-btn:hover {
   background-color: #1b5e20;
 }
+
+.predetermined-img {
+  object-fit: contain;
+  background: #FFF8EE;
+  padding: 12px;
+  height: 200px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+

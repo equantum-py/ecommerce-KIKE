@@ -2,17 +2,6 @@ import React, { useEffect, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 
-import Grocerylogo from "../../images/Grocerylogo.png";
-import product1 from "../../images/category-baby-care.jpg";
-import product2 from "../../images/category-atta-rice-dal.jpg";
-import product3 from "../../images/category-bakery-biscuits.jpg";
-import product4 from "../../images/category-chicken-meat-fish.jpg";
-import product5 from "../../images/category-cleaning-essentials.jpg";
-import product6 from "../../images/category-dairy-bread-eggs.jpg";
-import product7 from "../../images/category-instant-food.jpg";
-import product8 from "../../images/category-pet-care.jpg";
-import product9 from "../../images/category-snack-munchies.jpg";
-import product10 from "../../images/category-tea-coffee-drinks.jpg";
 import graphics from "../../images/store-graphics.svg";
 import { MagnifyingGlass } from "react-loader-spinner";
 import ScrollToTop from "../ScrollToTop";
@@ -89,7 +78,7 @@ const SingleShop = () => {
                           {/* img */}
                           {/* img */}
                           <img
-                            src={Grocerylogo}
+                            src="/images/producto-predeterminado.svg"
                             style={{
                               width: 200,
                               marginBottom: 10,
@@ -414,9 +403,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product1}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -529,9 +518,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product2}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -640,9 +629,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product3}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -754,9 +743,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product4}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -868,9 +857,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product5}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -984,9 +973,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product6}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -1099,9 +1088,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product7}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -1210,9 +1199,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product8}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -1322,9 +1311,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product9}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
@@ -1436,9 +1425,9 @@ const SingleShop = () => {
                                 <Link to="#!">
                                   {/* img */}
                                   <img
-                                    src={product10}
+                                    src="/images/producto-predeterminado.svg"
                                     alt="Grocery Ecommerce Template"
-                                    className="mb-3 img-fluid"
+                                    className="mb-3 img-fluid predetermined-img"
                                   />
                                 </Link>
                                 {/* btn action */}
