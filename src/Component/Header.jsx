@@ -223,7 +223,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <h2 className="mb-0 text-dark">Antojo Casero</h2>
+            <img src="/images/antojo-casero-logo-oficial.png" alt="Antojo Casero" loading="eager" decoding="async" className="antojo-logo-header" />
           </Link>
           <input
             className="form-control responsivesearch "

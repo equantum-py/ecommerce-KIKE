@@ -1,0 +1,40 @@
+﻿
+.antojo-logo-header {
+  display: block;
+  width: 100%;
+  max-width: 240px;
+  max-height: 72px;
+  object-fit: contain;
+}
+
+.antojo-logo-footer {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 991px) {
+  .antojo-logo-header {
+    max-width: 190px;
+    max-height: 60px;
+  }
+
+  .antojo-logo-footer {
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 575px) {
+  .antojo-logo-header {
+    max-width: 150px;
+    max-height: 48px;
+  }
+
+  .antojo-logo-footer {
+    max-width: 160px;
+  }
+}
+

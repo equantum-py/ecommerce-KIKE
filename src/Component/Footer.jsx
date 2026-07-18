@@ -10,9 +10,8 @@ const Footer = () => {
             {/* Bloque 1 - Marca */}
             <div className="antojo-footer-brand">
               <Link to="/">
-                <h2 className="mb-0 text-dark">Antojo Casero</h2>
+                <img src="/images/antojo-casero-logo-oficial.png" alt="Antojo Casero" loading="lazy" decoding="async" className="antojo-logo-footer" />
               </Link>
-              <h4 className="mt-3">Hecho en casa, con amor</h4>
               <p>Sabores caseros preparados con dedicación.</p>
             </div>
 

@@ -274,3 +274,14 @@ export const formatGuarani = (value) => {
 - Resultado del build: Limpio (verificado localmente sin errores de sintaxis).
 - Advertencias pendientes: Al evitar overrides globales de Bootstrap bg-success, futuros módulos con formularios validables deben preservar las clases de validación por defecto sin afectar la marca.
 
+
+## Fase 5 — Integración del logo oficial
+
+- Ruta del logo: /images/antojo-casero-logo-oficial.png
+- Componentes actualizados: Header.jsx, Footer.jsx
+- Clases CSS creadas: .antojo-logo-header, .antojo-logo-footer (con max-width responsive adaptado para mobile, tablet y desktop).
+- Tamaños responsive: Desktop (240px/220px), Tablet (190px), Mobile (150px/160px).
+- Logos anteriores eliminados: Se eliminaron los textos H2 y H4 duplicados para que el logo SVG actúe como única identidad corporativa.
+- Estado del archivo oficial: Pendiente de subida por el administrador en la carpeta public/images/.
+- Resultado del build: Limpio y estructurado, sin errores de sintaxis o duplicaciones.
+
