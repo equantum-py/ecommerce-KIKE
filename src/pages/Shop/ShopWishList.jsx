@@ -25,7 +25,7 @@ const ShopWishList = () => {
       <div>
       {loaderStatus ? (
         <div className="loader-container">
-          {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+          {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
           <MagnifyingGlass
   visible={true}
   height="100"
@@ -34,7 +34,7 @@ const ShopWishList = () => {
   wrapperStyle={{}}
   wrapperclassName="magnifying-glass-wrapper"
   glassColor="#c0efff"
-  color="#0aad0a"
+  color="#D96800"
   />
         </div>
       ) : (

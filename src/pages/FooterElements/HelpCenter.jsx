@@ -48,7 +48,7 @@ const HelpCenter = () => {
       <div className="row">
         <div className="col-md-12 mb-6">
           <div className="section-head text-center mt-8">
-            <h1 className="h3style" style={{ color: "green" }} data-title="Help Center">
+            <h1 className="h3style" style={{ color: "var(--brand-success)" }} data-title="Help Center">
               Help Center
             </h1>
             <div className="wt-separator bg-primarys"></div>
@@ -70,7 +70,7 @@ const HelpCenter = () => {
                 <li key={i} className="help-faq-item">
                   <strong>{faq.q}</strong>
                   <p>
-                    <i className="fa fa-circle" style={{ color: "green" }} />{" "}
+                    <i className="fa fa-circle" style={{ color: "var(--brand-success)" }} />{" "}
                     {faq.a}
                   </p>
                 </li>

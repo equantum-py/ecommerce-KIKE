@@ -2,7 +2,7 @@ import React from "react";
 import signinimage from '../../images/signin-g.svg'
 import { Link } from "react-router-dom";
 import ScrollToTop from "../ScrollToTop";
-// import Grocerylogo from '../../images/Grocerylogo.png'
+
 
 const MyAccountSignIn = () => {
   return (
@@ -15,8 +15,8 @@ const MyAccountSignIn = () => {
               <div className="container justify-content-center justify-content-lg-between">
                 <Link className="navbar-brand" to="../index.html">
                   <img
-                    src={Grocerylogo}
-                    alt="freshcart"
+                    src="/images/antojo-casero-logo.svg"
+                    alt="Antojo Casero"
                     className="d-inline-block align-text-top"
                   />
                 </Link>
@@ -38,17 +38,16 @@ const MyAccountSignIn = () => {
                   {/* img */}
                   <img
                     src={signinimage}
-                    alt="freshcart"
+                    alt="Antojo Casero"
                     className="img-fluid"
                   />
                 </div>
                 {/* col */}
                 <div className="col-12 col-md-6 offset-lg-1 col-lg-4 order-lg-2 order-1">
                   <div className="mb-lg-9 mb-5">
-                    <h1 className="mb-1 h2 fw-bold">Sign in to FreshCart</h1>
+                    <h1 className="mb-1 h2 fw-bold">Ingresar a Antojo Casero</h1>
                     <p>
-                      Welcome back to FreshCart! Enter your email to get
-                      started.
+                      Bienvenido de nuevo. Ingresá tu email para continuar.
                     </p>
                   </div>
                   <form>

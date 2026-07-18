@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Grocerylogo from "../images/Grocerylogo.png";
 import menubanner from "../images/menu-banner.jpg";
 import productimage1 from '../images/product-img-1.jpg'
 import productimage2 from '../images/product-img-2.jpg'
@@ -7,6 +6,7 @@ import productimage3 from '../images/product-img-3.jpg'
 import productimage4 from '../images/product-img-4.jpg'
 import productimage5 from '../images/product-img-5.jpg'
 import { Link } from "react-router-dom";
+const antojoLogo = "/images/antojo-casero-logo.svg";
 
 const Header = () => {
 
@@ -25,7 +25,7 @@ const Header = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-10 col-12 d-flex " style={{ alignItems: 'center' }}>
-                  <span> Super Value Deals - Save more with coupons</span>
+                  <span> Antojo Casero — Hecho en casa, con amor</span>
                 </div>
                 <div className="col-md-2 col-xxl-1 text-end d-none d-lg-block" style={{ marginLeft: '20px' }}>
                   <div className="list-inline">
@@ -129,7 +129,7 @@ const Header = () => {
                 style={{ width: "100%" }}
                 list="datalistOptions"
                 id="exampleDataList"
-                placeholder="Type to search..."
+                placeholder="Buscar productos caseros..."
               />
             </div>
             <div className="col-4 col-sm-4 col-lg-3 py-2 d-flex" style={{ justifyContent: 'center' }}>
@@ -226,18 +226,18 @@ const Header = () => {
       </>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top">
         <div className="container">
-          <Link className="navbar-brand" to="/Grocery-react/">
+          <Link className="navbar-brand" to="/AntojoCasero/">
             <img
-              src={Grocerylogo}
+              src={antojoLogo}
               style={{ width: 200, marginBottom: 10, marginLeft: "-15px" }}
-              alt="eCommerce HTML Template"
+              alt="Antojo Casero"
             />
           </Link>
           <input
             className="form-control responsivesearch "
             list="datalistOptions"
             id="exampleDataList"
-            placeholder="Type to search..."
+            placeholder="Buscar productos caseros..."
             fdprocessedid="9icrif"
             style={{ width: "35%" }}
           />
@@ -291,7 +291,7 @@ const Header = () => {
                     <rect x="3" y="14" width="7" height="7"></rect>
                   </svg>
                 </span>{" "}
-                All Departments
+                Categorías
               </Link>
               <div
                 className="dropdown-menu sm-menu"
@@ -322,7 +322,7 @@ const Header = () => {
             </li>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/Grocery-react/">
+            <Link className="nav-link" to="/AntojoCasero/">
               Home
             </Link>
           </li>
@@ -585,7 +585,7 @@ const Header = () => {
                     <img
                       src={menubanner}
                       style={{ width: "90%" }}
-                      alt="eCommerce HTML Template"
+                      alt="Antojo Casero"
                       className="img-fluid rounded-3"
                     />
                     <div className="position-absolute ps-6 mt-8">
@@ -597,7 +597,7 @@ const Header = () => {
                         to="/Shop"
                         className="btn btn-primary btn-sm mt-3"
                       >
-                        Shop Now
+                        Ver productos
                       </Link>
                     </div>
                   </div>

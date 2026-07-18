@@ -42,7 +42,7 @@ const AboutUs = () => {
       <div>
         {loaderStatus ? (
           <div className="loader-container">
-            {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+            {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
             <MagnifyingGlass
               visible={true}
               height="100"
@@ -51,7 +51,7 @@ const AboutUs = () => {
               wrapperStyle={{}}
               wrapperclassName="magnifying-glass-wrapper"
               glassColor="#c0efff"
-              color="#0aad0a"
+              color="#D96800"
             />
           </div>
         ) : (
@@ -81,7 +81,7 @@ const AboutUs = () => {
                       {/* Text */}
                       <Slide direction="down">
                       <h1 className="pb-2 pb-md-3">About Fresh Cart</h1>
-                      <h3 className="pb-2 pb-md-3">The Future of Grocery Delivery:</h3>
+                      <h3 className="pb-2 pb-md-3">El sabor casero también puede ser fácil de comprar:</h3>
                       <p
                         className="fs-xl pb-4 mb-1 mb-md-2 mb-lg-3"
                         style={{ maxWidth: 526 }}

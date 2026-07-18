@@ -22,7 +22,7 @@ const Coupons = () => {
           <div className="section-head text-center mt-8">
             <h1
               className="h3style"
-              style={{ color: "green" }}
+              style={{ color: "var(--brand-success)" }}
               data-title="Available Coupons & Promo Codes"
             >
               Available Coupons & Promo Codes

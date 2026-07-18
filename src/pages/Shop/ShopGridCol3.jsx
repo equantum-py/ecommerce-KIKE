@@ -103,7 +103,7 @@ const ShopGridCol3 = () => {
       //   <div>
       //     {loaderStatus ? (
       //       <div className="loader-container">
-      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+      //         {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
       //         <MagnifyingGlass
       //           visible={true}
       //           height="100"
@@ -112,7 +112,7 @@ const ShopGridCol3 = () => {
       //           wrapperStyle={{}}
       //           wrapperclassName="magnifying-glass-wrapper"
       //           glassColor="#c0efff"
-      //           color="#0aad0a"
+      //           color="#D96800"
       //         />
       //       </div>
       //     ) : (
@@ -175,11 +175,11 @@ const ShopGridCol3 = () => {
                       className="form-check-input"
                       type="checkbox"
                       defaultValue
-                      id="eGrocery"
+                      id="antojoCasero"
                       defaultChecked
                     />
-                    <label className="form-check-label" htmlFor="eGrocery">
-                      E-Grocery
+                    <label className="form-check-label" htmlFor="antojoCasero">
+                      Antojo Casero
                     </label>
                   </div>
                   {/* form check */}
@@ -267,10 +267,10 @@ const ShopGridCol3 = () => {
                       className="form-check-input"
                       type="checkbox"
                       defaultValue
-                      id="onlineGrocery"
+                      id="onlinantojoCasero"
                     />
-                    <label className="form-check-label" htmlFor="onlineGrocery">
-                      Online Grocery
+                    <label className="form-check-label" htmlFor="onlinantojoCasero">
+                      Productos caseros
                     </label>
                   </div>
                 </div>
@@ -383,7 +383,7 @@ const ShopGridCol3 = () => {
                     <h3 className="mb-0">Fresh Fruits </h3>
                     <p>Get Upto 25% Off</p>
                     <Link to="#" className="btn btn-dark">
-                      Shop Now
+                      Ver productos
                       <i className="feather-icon icon-arrow-right ms-1" />
                     </Link>
                   </div>
@@ -403,7 +403,7 @@ const ShopGridCol3 = () => {
                 <div>
                   {loaderStatus ? (
                     <div className="loader-container">
-                      {/* <PulseLoader loading={loaderStatus} size={50} color="#0aad0a" /> */}
+                      {/* <PulseLoader loading={loaderStatus} size={50} color="#D96800" /> */}
                       <MagnifyingGlass
                         visible={true}
                         height="100"
@@ -412,7 +412,7 @@ const ShopGridCol3 = () => {
                         wrapperStyle={{}}
                         wrapperclassName="magnifying-glass-wrapper"
                         glassColor="#c0efff"
-                        color="#0aad0a"
+                        color="#D96800"
                       />
                     </div>
                   ) : (
@@ -495,7 +495,7 @@ const ShopGridCol3 = () => {
                                   {/* img */}
                                   <img
                                     src={productimg4}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -614,7 +614,7 @@ const ShopGridCol3 = () => {
                                   {/* img */}
                                   <img
                                     src={productimg5}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -727,7 +727,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg1}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -846,7 +846,7 @@ const ShopGridCol3 = () => {
                                   {/* img */}
                                   <img
                                     src={productimg3}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -962,7 +962,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg6}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1081,7 +1081,7 @@ const ShopGridCol3 = () => {
                                   {/* img */}
                                   <img
                                     src={productimg2}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1197,7 +1197,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg3}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1310,7 +1310,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg4}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1424,7 +1424,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg5}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
@@ -1540,7 +1540,7 @@ const ShopGridCol3 = () => {
                                 <Link to="#!">
                                   <img
                                     src={productimg6}
-                                    alt="Grocery Ecommerce Template"
+                                    alt="Producto artesanal de Antojo Casero"
                                     className="mb-3 img-fluid"
                                   />
                                 </Link>
