@@ -30456,6 +30456,7 @@ background-color: #f3f6ff;
   width: 100%;
   max-width: 240px;
   max-height: 72px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -30465,7 +30466,6 @@ background-color: #f3f6ff;
   max-width: 220px;
   height: auto;
   object-fit: contain;
-  margin-bottom: 16px;
 }
 
 @media (max-width: 991px) {
