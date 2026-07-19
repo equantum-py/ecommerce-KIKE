@@ -6,7 +6,6 @@ import american from "../images/american-express.svg";
 import mastercard from "../images/mastercard.svg";
 import paypal from "../images/paypal.svg";
 import visa from "../images/visa.svg";
-const antojoLogo = "/images/antojo-casero-logo.svg";
 
 const Footer = () => {
   let date = new Date();
@@ -23,9 +22,11 @@ const Footer = () => {
                   <div className="footer-logo">
                     <Link to="/">
                       <img
-                        src={antojoLogo}
-                        style={{ width: 300, padding: 20, marginLeft: "-30px" }}
+                        src="/images/antojo-casero-logo-oficial.png"
                         alt="Antojo Casero"
+                        className="antojo-logo-footer"
+                        loading="lazy"
+                        decoding="async"
                       />
                     </Link>
                   </div>

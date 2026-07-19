@@ -3,7 +3,11 @@
   "name": "Antojo Casero | Hecho en casa, con amor",
   "icons": [
     { "src": "favicon.ico", "sizes": "64x64 32x32 24x24 16x16", "type": "image/x-icon" },
-    { "src": "images/antojo-casero-logo.svg", "type": "image/svg+xml", "sizes": "512x512" }
+    {
+      "src": "favicon-antojo-casero.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ],
   "start_url": ".",
   "display": "standalone",

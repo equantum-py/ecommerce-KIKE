@@ -6,7 +6,7 @@ import productimage3 from '../images/product-img-3.jpg'
 import productimage4 from '../images/product-img-4.jpg'
 import productimage5 from '../images/product-img-5.jpg'
 import { Link } from "react-router-dom";
-const antojoLogo = "/images/antojo-casero-logo.svg";
+const antojoLogo = "/images/antojo-casero-logo-oficial.png";
 
 const Header = () => {
 
@@ -229,8 +229,10 @@ const Header = () => {
           <Link className="navbar-brand" to="/AntojoCasero/">
             <img
               src={antojoLogo}
-              style={{ width: 200, marginBottom: 10, marginLeft: "-15px" }}
               alt="Antojo Casero"
+              className="antojo-logo-header"
+              loading="eager"
+              decoding="async"
             />
           </Link>
           <input
